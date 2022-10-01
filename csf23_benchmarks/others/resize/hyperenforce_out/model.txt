@@ -1,0 +1,44 @@
+pt = DataType({'is_cont': ['0', '1', 'null', ''], 'PC': ['5', '46', '102', '104', '106', '154', '156', '157', '158', '159', '160', '161', '162', '165', '168', '182', '183', 'null', ''], 'con_options': ['true', 'false', 'null', '']})
+plant = Plant(label_type=pt)
+# add an empty init state
+plant.add_vertex(label=pt.default_value)
+# make it initial state
+plant.initial_state_index = 0
+
+# trace 1
+plant.add_vertex(label=pt(is_cont="0", PC="5", con_options="true")) # index:1
+plant.add_cont_edges([(0, 1)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="46", con_options="true")) # index:2
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="102", con_options="true")) # index:3
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="104", con_options="true")) # index:4
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="106", con_options="true")) # index:5
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="154", con_options="true")) # index:6
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="156", con_options="true")) # index:7
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="157", con_options="true")) # index:8
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="158", con_options="true")) # index:9
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="159", con_options="true")) # index:10
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="160", con_options="true")) # index:11
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="161", con_options="true")) # index:12
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="162", con_options="true")) # index:13
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="165", con_options="true")) # index:14
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="168", con_options="true")) # index:15
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="182", con_options="true")) # index:16
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="183", con_options="true")) # index:17
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="8", con_options="true")) # index:18
+plant.add_cont_edges([(1, 18)], weight=[1])

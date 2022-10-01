@@ -1,0 +1,6 @@
+{'is_cont': 0, 'PC': 5, 'con_y': 'true', 'str_test': 'string'} ---> {'is_cont': 1, 'PC': 16, 'con_y': 'true', 'str_test': "'not_string'"} ---> {'is_cont': 1, 'PC': 17, 'con_y': 'true', 'str_test': "'not_string'"} ---> (END)
+{'is_cont': 0, 'PC': 5, 'con_y': 'false', 'str_test': ''} ---> (END)
+{'is_cont': 0, 'PC': 5, 'con_y': 'true', 'str_test': 'not_string'} ---> (END)
+{'is_cont': 0, 'PC': 5, 'con_y': 'false', 'str_test': 'not_string'} ---> (END)
+{'is_cont': 0, 'PC': 5, 'con_y': 'true', 'str_test': '$'} ---> (END)
+{'is_cont': 0, 'PC': 5, 'con_y': 'false', 'str_test': 'string'} ---> {'is_cont': 1, 'PC': 16, 'con_y': 'false', 'str_test': "'not_string'"} ---> {'is_cont': 1, 'PC': 17, 'con_y': 'true', 'str_test': "'not_string'"} ---> (END)

@@ -1,0 +1,16 @@
+=== ExpoSE Statistical Report === 
+General Function Call: 1944
+Symbolic Values:     540
+Symbolic Primitives: 540
+Total Lines Of Code 299
+ExpoSE total time:  337.823 s
+
+=== HyperEnforce Statistical Report === 
+JS File name:                         mybenchmarks/test-sunspider-crypto-md5.js
+Number of concrete traces:            108
+Number of states:                     3349
+Number of observable states:          31
+List of observable states:            [19, 71, 95, 96, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 181, 182, 183, 184, 220, 225, 226, 262, 275, 295, 296]
+Time took for extracting ExpoSE info: 0.075625 
+Time took for building Kripke struct: 0.337884 
+Total time:                           0.413826 

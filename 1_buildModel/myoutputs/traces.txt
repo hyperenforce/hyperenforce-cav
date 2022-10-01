@@ -1,0 +1,6 @@
+{'controllable': 0, 'PC': 5, 'ucon_x': 'true', 'con_y': 'true', 'supp_0': 'true', 'supp_1': 'true'} ---> (END)
+{'controllable': 0, 'PC': 5, 'ucon_x': 'false', 'con_y': 'false', 'supp_0': 'false', 'supp_1': 'false'} ---> {'controllable': 1, 'PC': 12, 'ucon_x': 'false', 'con_y': 'true;', 'supp_0': 'false', 'supp_1': 'false'} ---> (END)
+{'controllable': 0, 'PC': 5, 'ucon_x': 'false', 'con_y': 'false', 'supp_0': 'true', 'supp_1': 'false'} ---> (END)
+{'controllable': 0, 'PC': 5, 'ucon_x': 'true', 'con_y': 'false', 'supp_0': 'true', 'supp_1': 'false'} ---> {'controllable': 1, 'PC': 16, 'ucon_x': 'true', 'con_y': 'false', 'supp_0': 'true', 'supp_1': 'false'} ---> (END)
+{'controllable': 0, 'PC': 5, 'ucon_x': 'true', 'con_y': 'false', 'supp_0': 'false', 'supp_1': 'false'} ---> {'controllable': 1, 'PC': 12, 'ucon_x': 'true', 'con_y': 'true;', 'supp_0': 'false', 'supp_1': 'false'} ---> {'controllable': 1, 'PC': 16, 'ucon_x': 'true', 'con_y': 'false', 'supp_0': 'false', 'supp_1': 'false'} ---> (END)
+{'controllable': 0, 'PC': 5, 'ucon_x': 'true', 'con_y': 'false', 'supp_0': 'false', 'supp_1': 'true'} ---> {'controllable': 1, 'PC': 12, 'ucon_x': 'true', 'con_y': 'true;', 'supp_0': 'false', 'supp_1': 'true'} ---> (END)

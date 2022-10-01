@@ -1,0 +1,15 @@
+#
+#
+#
+"""
+A hyper automaton
+"""
+# Plant output type
+# Forall quantifier
+quants = (1,)
+h = HyperAutomaton(quants, label_type=pt)
+h.add_vertices(4, )
+h.initial_state_indices = [0]
+h.add_edge(0, 1, (pt.default_value,))
+
+h.add_edge(1, 2, (pt(controllable="0", PC="19", con_y='true'),))

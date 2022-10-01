@@ -1,0 +1,77 @@
+#
+#
+#
+"""
+A hyper automaton
+"""
+# Plant output type
+# Forall quantifier
+quants = (1,)
+h = HyperAutomaton(quants, label_type=pt)
+h.add_vertices(4, )
+h.initial_state_indices = [0]
+h.add_edge(0, 1, (pt.default_value,))
+
+h.add_edge(1, 2, (pt(is_cont="0", PC="5", con_y='true'),))
+
+h.add_edge(2, 2, (pt(is_cont="0", PC="13", con_y='true'),))
+h.add_edge(2, 2, (pt(is_cont="1", PC="13", con_y='true'),))
+h.add_edge(2, 2, (pt(is_cont="0", PC="13", con_y='false'),))
+h.add_edge(2, 2, (pt(is_cont="1", PC="13", con_y='false'),))
+
+h.add_edge(2, 2, (pt(is_cont="0", PC="15", con_y='true'),))
+h.add_edge(2, 2, (pt(is_cont="1", PC="15", con_y='true'),))
+h.add_edge(2, 2, (pt(is_cont="0", PC="15", con_y='false'),))
+h.add_edge(2, 2, (pt(is_cont="1", PC="15", con_y='false'),))
+
+h.add_edge(2, 2, (pt(is_cont="0", PC="17", con_y='true'),))
+h.add_edge(2, 2, (pt(is_cont="1", PC="17", con_y='true'),))
+h.add_edge(2, 2, (pt(is_cont="0", PC="17", con_y='false'),))
+h.add_edge(2, 2, (pt(is_cont="1", PC="17", con_y='false'),))
+
+h.add_edge(2, 2, (pt(is_cont="0", PC="18", con_y='true'),))
+h.add_edge(2, 2, (pt(is_cont="1", PC="18", con_y='true'),))
+h.add_edge(2, 2, (pt(is_cont="0", PC="18", con_y='false'),))
+h.add_edge(2, 2, (pt(is_cont="1", PC="18", con_y='false'),))
+
+h.add_edge(2, 2, (pt(is_cont="0", PC="20", con_y='true'),))
+h.add_edge(2, 2, (pt(is_cont="1", PC="20", con_y='true'),))
+h.add_edge(2, 2, (pt(is_cont="0", PC="20", con_y='false'),))
+h.add_edge(2, 2, (pt(is_cont="1", PC="20", con_y='false'),))
+
+
+h.add_edge(2, 2, (pt(is_cont="0", PC="25", con_y='true'),))
+h.add_edge(2, 2, (pt(is_cont="1", PC="25", con_y='true'),))
+
+
+h.add_edge(1, 3, (pt(is_cont="0", PC="5", con_y='false'),))
+
+h.add_edge(3, 3, (pt(is_cont="0", PC="13", con_y='true'),))
+h.add_edge(3, 3, (pt(is_cont="1", PC="13", con_y='true'),))
+h.add_edge(3, 3, (pt(is_cont="0", PC="13", con_y='false'),))
+h.add_edge(3, 3, (pt(is_cont="1", PC="13", con_y='false'),))
+
+h.add_edge(3, 3, (pt(is_cont="0", PC="15", con_y='true'),))
+h.add_edge(3, 3, (pt(is_cont="1", PC="15", con_y='true'),))
+h.add_edge(3, 3, (pt(is_cont="0", PC="15", con_y='false'),))
+h.add_edge(3, 3, (pt(is_cont="1", PC="15", con_y='false'),))
+
+h.add_edge(3, 3, (pt(is_cont="0", PC="17", con_y='true'),))
+h.add_edge(3, 3, (pt(is_cont="1", PC="17", con_y='true'),))
+h.add_edge(3, 3, (pt(is_cont="0", PC="17", con_y='false'),))
+h.add_edge(3, 3, (pt(is_cont="1", PC="17", con_y='false'),))
+
+h.add_edge(3, 3, (pt(is_cont="0", PC="18", con_y='true'),))
+h.add_edge(3, 3, (pt(is_cont="1", PC="18", con_y='true'),))
+h.add_edge(3, 3, (pt(is_cont="0", PC="18", con_y='false'),))
+h.add_edge(3, 3, (pt(is_cont="1", PC="18", con_y='false'),))
+
+h.add_edge(3, 3, (pt(is_cont="0", PC="20", con_y='true'),))
+h.add_edge(3, 3, (pt(is_cont="1", PC="20", con_y='true'),))
+h.add_edge(3, 3, (pt(is_cont="0", PC="20", con_y='false'),))
+h.add_edge(3, 3, (pt(is_cont="1", PC="20", con_y='false'),))
+
+
+
+h.add_edge(3, 3, (pt(is_cont="0", PC="25", con_y='true'),))
+h.add_edge(3, 3, (pt(is_cont="1", PC="25", con_y='true'),))

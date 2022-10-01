@@ -1,0 +1,16 @@
+=== ExpoSE Statistical Report === 
+General Function Call: 84
+Symbolic Values:     24
+Symbolic Primitives: 24
+Total Lines Of Code 45
+ExpoSE total time:  18.554 s
+
+=== HyperEnforce Statistical Report === 
+JS File name:                         csf23_benchmarks/login_ninf/login_ninf_extended.js
+Number of concrete traces:            6
+Number of states:                     23
+Number of observable states:          7
+List of observable states:            [5, 15, 19, 30, 32, 36, 38]
+Time took for extracting ExpoSE info: 0.004836 
+Time took for building Kripke struct: 0.000645 
+Total time:                           0.005626 

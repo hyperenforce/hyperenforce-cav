@@ -1,0 +1,19 @@
+from hyper_synth.automata import Plant
+from hyper_synth.datatype import DataType
+from hyper_synth.encoding import (DataTypeEncoding, SetEncoding,
+                                  equal_tuple_form)
+from hyper_synth.hyperautomata import (ExplicitHyperAutomaton,
+                                       SymbolicHyperAutomaton)
+from hyper_synth.qbf import NOT, TRUE
+from hyper_synth.qbf_encoding import ControllerSynthesisEncodingQBF
+from hyper_synth.qbf import *
+import logging
+import sys
+from hyper_synth.qbf_solver import QBFSolver
+
+
+
+solver = QBFSolver(tmp_dir_path=".", preprocessing=True)
+
+
+logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)

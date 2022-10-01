@@ -1,0 +1,27 @@
+<script type="javascript">
+
+var baseUrl;
+
+var settings = function(s) { baseUrl = s; }
+
+if(readCookie("isIntern")) {
+
+settings("mysite.com/intern/login.php");
+
+} else {
+
+settings("mysite.com/login.php");
+
+}
+
+</script>
+
+<text id="User"> <text id="Pwd">
+
+<button id="ButtonLogin" onclick="login()">
+
+<div id="AdNode">
+
+<script src="adserver.com/display.js">
+
+</div>

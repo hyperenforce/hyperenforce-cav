@@ -1,0 +1,28 @@
+#
+#
+#
+def _run_cont_synth(plant, h):
+    prob = ControllerSynthesisEncodingQBF(plant, h, do_optimization=True)
+    prob.encode()
+    output = prob.solve()
+    if output.is_error:
+        raise RuntimeError('Solver error: ', output.msg)
+    controller = prob.decode_controller(output.model)
+    return controller
+
+
+c1 = _run_cont_synth(plant, h)
+
+if(str(c1) != 'None'):
+    print('controller found')
+    print(type(c1))
+    print(c1)
+    print(c1.vs['label'])
+    state_num = (c1.vs['name'])
+    c = 0
+    for l in (c1.vs['label']):
+      print(str(state_num[c]) + ' :  ' + str(l))
+      c += 1
+
+else:
+    print('controller not found.')

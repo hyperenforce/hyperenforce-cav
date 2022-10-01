@@ -1,0 +1,16 @@
+=== ExpoSE Statistical Report === 
+General Function Call: 70
+Symbolic Values:     20
+Symbolic Primitives: 20
+Total Lines Of Code 17
+ExpoSE total time:  13.684 s
+
+=== HyperEnforce Statistical Report === 
+JS File name:                         csf23_benchmarks/test_proj1/mytest_bool.js
+Number of concrete traces:            5
+Number of states:                     7
+Number of observable states:          3
+List of observable states:            [5, 13, 17]
+Time took for extracting ExpoSE info: 0.003932 
+Time took for building Kripke struct: 0.000827 
+Total time:                           0.004893 

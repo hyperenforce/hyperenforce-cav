@@ -1,0 +1,66 @@
+pt = DataType({'controllable': [0, 'null'], 'PC': [5, 'null'], 'ucon_x': ['true', 'false', 'null'], 'con_y': ['true', 'false', 'null'], 'supp_0': ['true', 'false', 'null'], 'supp_1': ['true', 'false', 'null']})
+plant = Plant()
+# add an empty init state
+plant.add_vertex(label=pt(controllable="null", PC="null", ucon_x="null", con_y="null", supp_0="null", supp_1="null")) # index:0
+
+# trace 1
+# supp_0 = true
+# supp_1 = true
+plant.add_vertex(label=pt(controllable="0", PC="5", ucon_x="true", con_y="true")) # index:1
+plant.add_uncont_edge(0, 1)
+plant.add_vertex(label=pt(controllable="0", PC="12", ucon_x="true", con_y="true")) # index:2
+plant.add_uncont_edge(1, 2)
+plant.add_vertex(label=pt(controllable="0", PC="16", ucon_x="true", con_y="true")) # index:3
+plant.add_uncont_edge(2, 3)
+
+# trace 2
+# supp_0 = false
+# supp_1 = false
+plant.add_vertex(label=pt(controllable="0", PC="5", ucon_x="false", con_y="false")) # index:4
+plant.add_uncont_edge(0, 4)
+plant.add_vertex(label=pt(controllable="1", PC="12", ucon_x="false", con_y="true;")) # index:5
+plant.add_cont_edge(4, 5)
+plant.add_vertex(label=pt(controllable="1", PC="16", ucon_x="false", con_y="true;")) # index:6
+plant.add_uncont_edge(5, 6)
+
+# trace 3
+# supp_0 = true
+# supp_1 = false
+# repeating state at PC=5, goes back to index:4
+plant.add_uncont_edge(0, 4)
+plant.add_vertex(label=pt(controllable="0", PC="12", ucon_x="false", con_y="false")) # index:7
+plant.add_uncont_edge(4, 7)
+plant.add_vertex(label=pt(controllable="0", PC="16", ucon_x="false", con_y="false")) # index:8
+plant.add_uncont_edge(7, 8)
+
+# trace 4
+# supp_0 = true
+# supp_1 = false
+plant.add_vertex(label=pt(controllable="0", PC="5", ucon_x="true", con_y="false")) # index:9
+plant.add_uncont_edge(0, 9)
+plant.add_vertex(label=pt(controllable="1", PC="12", ucon_x="true", con_y="false")) # index:10
+plant.add_uncont_edge(9, 10)
+plant.add_vertex(label=pt(controllable="1", PC="16", ucon_x="true", con_y="false")) # index:11
+plant.add_cont_edge(10, 11)
+
+# trace 5
+# supp_0 = false
+# supp_1 = false
+# repeating state at PC=5, goes back to index:9
+plant.add_uncont_edge(0, 9)
+plant.add_vertex(label=pt(controllable="1", PC="12", ucon_x="true", con_y="true;")) # index:12
+plant.add_cont_edge(9, 12)
+# repeating state at PC=16, goes back to index:11
+plant.add_cont_edge(12, 11)
+
+# trace 6
+# supp_0 = false
+# supp_1 = true
+# repeating state at PC=5, goes back to index:9
+plant.add_uncont_edge(0, 9)
+# repeating state at PC=12, goes back to index:12
+plant.add_cont_edge(9, 12)
+plant.add_vertex(label=pt(controllable="1", PC="16", ucon_x="true", con_y="true;")) # index:13
+plant.add_uncont_edge(12, 13)
+
+return plant

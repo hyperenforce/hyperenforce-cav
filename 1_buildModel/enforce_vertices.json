@@ -1,0 +1,47 @@
+[
+    {
+        "is_cont": "null",
+        "PC": "null",
+        "con_y": "null"
+    },
+    {
+        "is_cont": 0,
+        "PC": 5,
+        "con_y": "true"
+    },
+    {
+        "is_cont": 0,
+        "PC": 13,
+        "con_y": "true"
+    },
+    {
+        "is_cont": 0,
+        "PC": 16,
+        "con_y": "true"
+    },
+    {
+        "is_cont": 1,
+        "PC": 25,
+        "con_y": "true"
+    },
+    {
+        "is_cont": 0,
+        "PC": 5,
+        "con_y": "false"
+    },
+    {
+        "is_cont": 0,
+        "PC": 13,
+        "con_y": "false"
+    },
+    {
+        "is_cont": 0,
+        "PC": 16,
+        "con_y": "false"
+    },
+    {
+        "is_cont": 1,
+        "PC": 25,
+        "con_y": "false"
+    }
+]
