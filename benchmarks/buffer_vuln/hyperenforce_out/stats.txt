@@ -1,0 +1,13 @@
+=== ExpoSE Statistical Report === 
+Total Lines Of Code 0
+ExpoSE total time:  2.603 s
+
+=== HyperEnforce Statistical Report === 
+JS File name:                         benchmarks/buffer_vuln/buffer_extended.js
+Number of concrete traces:            1
+Number of states:                     3
+Number of observable states:          2
+List of observable states:            [4, 14]
+Time took for extracting ExpoSE info: 0.000263 
+Time took for building Kripke struct: 0.000302 
+Total time:                           0.000732 

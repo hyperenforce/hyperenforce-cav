@@ -1,0 +1,170 @@
+
+/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/.eslintrc.json
+  0:0  warning  File ignored by default.  Use a negated ignore pattern (like "--ignore-pattern '!<relative/path/to/filename>'") to override
+
+/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Distributor/src/Spawn.js
+  99:21  warning  Unnecessary escape character: \/  no-useless-escape
+
+✖ 2 problems (0 errors, 2 warnings)
+
+Building Libs
+Successfully compiled 1 file with Babel (339ms).
+Building Distributor
+Successfully compiled 15 files with Babel (875ms).
+Building Analyser
+Successfully compiled 24 files with Babel (1433ms).
+Building into
+Bundling Analyser/bin/Analyser.js into bin/bundle.js
+[+] ExpoSE /Users/tzuhan/+research/hyper_enforce/HyperEnforce/csf23_benchmarks/printer/printer_extended.js concurrent: 1 timeout: 7200000 per-test: 2400000
+[-] [0 done /0 queued / 1 running / 0 errors / 0% coverage ] ***[1000D[0K[\] [0 done /0 queued / 1 running / 0 errors / 0% coverage ] ***[?] Built with VERY logging enabled
+[?] Built with FINE logging enabled
+[!] Built with BASE logging enabled
+[!] Intial Input {"_bound":0}
+Transforming
+Failed to instrument var S$ = require('S$');
+
+
+
+var con_printer_helper = S$.symbol('con_printer_helper', true);
+
+
+var printer_helper = {}
+    , fs = require("fs")
+    , child_process = require("child_process")
+    , os = require("os")
+    , path = require("path");
+
+if(process.platform=="win32"){
+    printer_helper = require('../build/Release/node_printer.node');
+}
+
+module.exports.printDirect = printDirect
+
+/*
+print raw data. This function is intend to be asynchronous
+
+parameters:
+	parameters - Object, parameters objects with the following structure:
+		data - String, mandatory, data to printer
+		printer - String, mandatory, mane of the printer
+		docname - String, optional, name of document showed in printer status
+		type - String, optional, only for wind32, data type, one of the RAW, TEXT
+		success - Function, optional, callback function
+		error - Function, optional, callback function if exists any error
+
+	or
+
+	data - String, mandatory, data to printer
+	printer - String, mandatory, mane of the printer
+	docname - String, optional, name of document showed in printer status
+	type - String, optional, data type, one of the RAW, TEXT
+	success - Function, optional, callback function
+	error - Function, optional, callback function if exists any error
+*/
+function printDirect(parameters){
+	var data = parameters
+		, printer
+		, docname
+		, type
+		, success
+		, error;
+
+	if(arguments.length==1){
+		//TODO: check parameters type
+		//if (typeof parameters )
+		data = parameters.data;
+		printer = parameters.printer;
+		docname = parameters.docname;
+		type = parameters.type;
+		success = parameters.success;
+		error = parameters.error;
+	}else{
+		printer = arguments[1];
+		type = arguments[2];
+		docname = arguments[3];
+		success = arguments[4];
+		error = arguments[5];
+	}
+
+	// if(!success){
+	// 	success = function(){};
+	// }
+  //
+	// if(!error){
+	// 	error = function(err){
+	// 		throw err;
+	// 	};
+	// }
+
+	// if(!type){
+	// 	type = "RAW";
+	// }
+  //
+	// if(!docname){
+	// 	docname = "node print job";
+	// }
+
+// 	//TODO: check parameters type
+// 	if(process.platform=="win32"){// call C++ binding
+// 		if(!printer_helper.printDirect){
+// 			error("Not supported, try to compile this package with MSC");
+// 			return;
+// 		}
+// 		try{
+// 			var res = printer_helper.printDirect(data, printer, docname, type, success, error);
+// 			if(res===true){
+// 				success();
+// 			}else{
+// 				error(Error("Something wrong"));
+// 			}
+// 		}catch (e){
+// 			error(e);
+// 		}
+//     }else if (!printer_helper.printDirect){// should be POSIX
+//         var temp_file_name = path.join(os.tmpDir(),"printing");
+//         fs.writeFileSync(temp_file_name, data);
+//         child_process.exec('lpr -P'+printer+' -oraw -r'+' '+temp_file_name, function(err, stdout, stderr){
+//             if (err !== null) {
+//                 error('ERROR: ' + err);
+//                 return;
+//             }
+//             if (stderr) {
+//                 error('STD ERROR: ' + stderr);
+//                 return;
+//             }
+//             success();
+//         });
+//     }else{
+// 		error("Not supported");
+// 	}
+// }
+/// END OF FILE ///
+
+[!] Uncaught exception SyntaxError: unknown: Unexpected token (119:0) Stack: SyntaxError: unknown: Unexpected token (119:0)
+  117 | // }
+  118 | /// END OF FILE ///
+> 119 | 
+      | ^
+    at Parser.pp$5.raise (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3344:19)
+    at Parser.pp$3.parseExpression (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3306:19)
+    at Parser.pp$1.parseStatement (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:1906:19)
+[!] Finished play with PC 
+[!] Wrote final coverage to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-69642-qsAB3k443um3
+[!] Wrote final output to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-69642-k9cBYoDzM6JK
+[1000D[0K[|] [1 done /0 queued / 0 running / 1 errors / 0% coverage ] ***
+[+] {"_bound":0} took 2.79s
+[!] SyntaxError: unknown: Unexpected token (119:0)
+[!] expoSE replay '/Users/tzuhan/+research/hyper_enforce/HyperEnforce/csf23_benchmarks/printer/printer_extended.js' '{"_bound":0}'
+[!] Stats
+[!] Done
+[+] Total Lines Of Code 0
+[+] Total Coverage: NaN%
+[+] EXPOSE_PRINT_COVERAGE=1 for line by line breakdown
+[+] ExpoSE Finished. 1 paths, 1 errors

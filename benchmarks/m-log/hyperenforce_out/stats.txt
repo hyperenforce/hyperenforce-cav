@@ -1,0 +1,16 @@
+=== ExpoSE Statistical Report === 
+General Function Call: 13
+Symbolic Values:     3
+Symbolic Primitives: 3
+Total Lines Of Code 71
+ExpoSE total time:  2.983 s
+
+=== HyperEnforce Statistical Report === 
+JS File name:                         csf23_benchmarks/m-log/log_extended.js
+Number of concrete traces:            1
+Number of states:                     18
+Number of observable states:          17
+List of observable states:            [3, 7, 23, 28, 34, 35, 37, 43, 49, 50, 52, 55, 60, 61, 65, 68, 69]
+Time took for extracting ExpoSE info: 0.001088 
+Time took for building Kripke struct: 0.000590 
+Total time:                           0.001934 

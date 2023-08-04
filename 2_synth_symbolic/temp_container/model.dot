@@ -1,0 +1,142 @@
+/* Created by igraph 0.9.9 */
+digraph {
+  0 [
+    name=0
+    marked=None
+    init=None
+    label="datatype(controllable='null', PC='null', ucon_x='null', con_y='null', supp_0='null', supp_1='null')"
+  ];
+  1 [
+    name=1
+    marked=None
+    init=None
+    label="datatype(controllable='0', PC='5', ucon_x='true', con_y='true', supp_0='true', supp_1='true')"
+  ];
+  2 [
+    name=2
+    marked=None
+    init=None
+    label="datatype(controllable='0', PC='12', ucon_x='true', con_y='true', supp_0='true', supp_1='true')"
+  ];
+  3 [
+    name=3
+    marked=None
+    init=None
+    label="datatype(controllable='0', PC='16', ucon_x='true', con_y='true', supp_0='true', supp_1='true')"
+  ];
+  4 [
+    name=4
+    marked=None
+    init=None
+    label="datatype(controllable='0', PC='5', ucon_x='false', con_y='false', supp_0='true', supp_1='true')"
+  ];
+  5 [
+    name=5
+    marked=None
+    init=None
+    label="datatype(controllable='1', PC='12', ucon_x='false', con_y='true;', supp_0='true', supp_1='true')"
+  ];
+  6 [
+    name=6
+    marked=None
+    init=None
+    label="datatype(controllable='1', PC='16', ucon_x='false', con_y='true;', supp_0='true', supp_1='true')"
+  ];
+  7 [
+    name=7
+    marked=None
+    init=None
+    label="datatype(controllable='0', PC='12', ucon_x='false', con_y='false', supp_0='true', supp_1='true')"
+  ];
+  8 [
+    name=8
+    marked=None
+    init=None
+    label="datatype(controllable='0', PC='16', ucon_x='false', con_y='false', supp_0='true', supp_1='true')"
+  ];
+  9 [
+    name=9
+    marked=None
+    init=None
+    label="datatype(controllable='0', PC='5', ucon_x='true', con_y='false', supp_0='true', supp_1='true')"
+  ];
+  10 [
+    name=10
+    marked=None
+    init=None
+    label="datatype(controllable='1', PC='12', ucon_x='true', con_y='false', supp_0='true', supp_1='true')"
+  ];
+  11 [
+    name=11
+    marked=None
+    init=None
+    label="datatype(controllable='1', PC='16', ucon_x='true', con_y='false', supp_0='true', supp_1='true')"
+  ];
+  12 [
+    name=12
+    marked=None
+    init=None
+    label="datatype(controllable='1', PC='12', ucon_x='true', con_y='true;', supp_0='true', supp_1='true')"
+  ];
+  13 [
+    name=13
+    marked=None
+    init=None
+    label="datatype(controllable='1', PC='16', ucon_x='true', con_y='true;', supp_0='true', supp_1='true')"
+  ];
+
+  0 -> 1 [
+    label=euc
+  ];
+  1 -> 2 [
+    label=euc
+  ];
+  2 -> 3 [
+    label=euc
+  ];
+  0 -> 4 [
+    label=euc
+  ];
+  4 -> 5 [
+    label=ec
+  ];
+  5 -> 6 [
+    label=euc
+  ];
+  0 -> 4 [
+    label=euc
+  ];
+  4 -> 7 [
+    label=euc
+  ];
+  7 -> 8 [
+    label=euc
+  ];
+  0 -> 9 [
+    label=euc
+  ];
+  9 -> 10 [
+    label=euc
+  ];
+  10 -> 11 [
+    label=ec
+  ];
+  0 -> 9 [
+    label=euc
+  ];
+  9 -> 12 [
+    label=ec
+  ];
+  12 -> 11 [
+    label=ec
+  ];
+  0 -> 9 [
+    label=euc
+  ];
+  9 -> 12 [
+    label=ec
+  ];
+  12 -> 13 [
+    label=euc
+  ];
+}

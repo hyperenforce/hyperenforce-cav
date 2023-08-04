@@ -1,0 +1,13 @@
+=== ExpoSE Statistical Report === 
+Total Lines Of Code 0
+ExpoSE total time:  2.558 s
+
+=== HyperEnforce Statistical Report === 
+JS File name:                         benchmarks/deniability/wallet_extended.js
+Number of concrete traces:            1
+Number of states:                     7
+Number of observable states:          6
+List of observable states:            [4, 13, 21, 23, 25, 27]
+Time took for extracting ExpoSE info: 0.000283 
+Time took for building Kripke struct: 0.000333 
+Total time:                           0.000771 

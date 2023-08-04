@@ -3,11 +3,17 @@ This project utilizes the [MDESops](https://gitlab.eecs.umich.edu/M-DES-tools/de
 
 ## Installation
 
-Poetry is used for installation and can be installed following instructions [here](https://python-poetry.org/docs/).
-
-In the current directory, the project can be installed with:
+In the main directory, the project can be installed with:
 
     poetry install
+
+If you would rather use a local version of M-DESops instead of the most recent version, in `pyproject.toml` comment the line:
+
+    DESops = {git="https://gitlab.eecs.umich.edu/M-DES-tools/desops.git"}
+
+and uncomment the line:
+
+    # DESops = {path="../desops"}
 
 The project also relies on [Quabs](https://github.com/ltentrup/quabs).
 After installing using instructions there, you can either
@@ -24,6 +30,14 @@ and set the environment variable `HYPER_ENF_QUABS_DIR` to the ``scripts/wsl`` di
 
 The project also uses Pyeda which is installed from the ``pyproject.toml`` file.
 You will need to uncomment the appropriate line in this file depending on your operating system.
+
+## Pre-commit hooks
+To ensure code uniformity, you can setup pre-commit hooks in the ``python`` directory by running
+
+    poetry run pre-commmit install
+
+Then whenever you make a commit, the checks are run possibly changing the code.
+If any changes are made, you will need to add the changes before trying to commit again.
 
 ## Tests
 This repository employs [pytest](https://docs.pytest.org/en/latest/) to write tests.

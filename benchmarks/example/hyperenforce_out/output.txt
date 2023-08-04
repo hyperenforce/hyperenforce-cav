@@ -1,0 +1,46 @@
+
+/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/.eslintrc.json
+  0:0  warning  File ignored by default.  Use a negated ignore pattern (like "--ignore-pattern '!<relative/path/to/filename>'") to override
+
+/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Distributor/src/Spawn.js
+  99:21  warning  Unnecessary escape character: \/  no-useless-escape
+
+✖ 2 problems (0 errors, 2 warnings)
+
+Building Libs
+Successfully compiled 1 file with Babel (340ms).
+Building Distributor
+Successfully compiled 15 files with Babel (819ms).
+Building Analyser
+Successfully compiled 24 files with Babel (1359ms).
+Building into
+Bundling Analyser/bin/Analyser.js into bin/bundle.js
+[+] ExpoSE /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/example/example_extended.js concurrent: 1 timeout: 7200000 per-test: 2400000
+[-] [0 done /0 queued / 1 running / 0 errors / 0% coverage ] ***[1000D[0K[\] [0 done /0 queued / 1 running / 0 errors / 0% coverage ] ***[?] Built with VERY logging enabled
+[?] Built with FINE logging enabled
+[!] Built with BASE logging enabled
+[!] Intial Input {"_bound":0}
+[!] Uncaught exception Error: Cannot find module '/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/example/example_extended.js' Stack: Error: Cannot find module '/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/example/example_extended.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:931:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+    at startProgram (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/src/js/commands/jalangi.js:127:19)
+    at SymbolicExecution.onReady (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/bin/SymbolicExecution.js:636:7)
+    at Object.<anonymous> (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/src/js/commands/jalangi.js:131:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+[!] Finished play with PC 
+[!] Wrote final coverage to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-87787-DTyFkYVIftc8
+[!] Wrote final output to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-87787-SeQfpJ2dXiLt
+[1000D[0K[|] [1 done /0 queued / 0 running / 1 errors / 0% coverage ] ***
+[+] {"_bound":0} took 2.557s
+[!] Error: Cannot find module '/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/example/example_extended.js'
+[!] expoSE replay '/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/example/example_extended.js' '{"_bound":0}'
+[!] Stats
+[!] Done
+[+] Total Lines Of Code 0
+[+] Total Coverage: NaN%
+[+] EXPOSE_PRINT_COVERAGE=1 for line by line breakdown
+[+] ExpoSE Finished. 1 paths, 1 errors

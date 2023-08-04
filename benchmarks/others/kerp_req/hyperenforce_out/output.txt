@@ -1,0 +1,12 @@
+
+/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/.eslintrc.json
+  0:0  warning  File ignored by default.  Use a negated ignore pattern (like "--ignore-pattern '!<relative/path/to/filename>'") to override
+
+/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Distributor/src/Spawn.js
+  99:21  warning  Unnecessary escape character: \/  no-useless-escape
+
+✖ 2 problems (0 errors, 2 warnings)
+
+Building Libs
+Successfully compiled 1 file with Babel (345ms).
+Building Distributor

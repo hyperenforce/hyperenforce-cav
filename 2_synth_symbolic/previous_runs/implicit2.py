@@ -1,3 +1,6 @@
+import logging
+import sys
+logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 from hyper_synth.automata import Plant
 from hyper_synth.datatype import DataType
 from hyper_synth.encoding import (DataTypeEncoding, SetEncoding,
@@ -17,7 +20,7 @@ solver = QBFSolver(tmp_dir_path=".", preprocessing=True)
 
 
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
-pt = DataType({'is_cont': ['0', '1', 'null', ''], 'PC': ['4', '12', '15', '25', 'null', ''], 'con_y': ['true', 'false', 'null', '']})
+pt = DataType({'is_cont': ['0', '1', 'null', '', 'true', 'false'], 'PC': ['4', '12', '15', '25', 'null', '', 'true', 'false'], 'con_y': ['true', 'false', 'null', '', 'true', 'false']})
 plant = Plant(label_type=pt)
 # add an empty init state
 plant.add_vertex(label=pt.default_value)
@@ -58,10 +61,10 @@ plant.add_cont_edges([(7, 8)], weight=[1])
 # repeating uncontrollable edge: (0,5), ignore 
 # repeating state at PC=12, goes back to index:6
 plant.add_uncont_edges([(5, 6)], weight=[1])
-# repeating state at PC=25, goes back to index:7
-plant.add_uncont_edges([(6, 7)], weight=[1])
-# repeating state at PC=25, goes back to index:8
-# repeating controllable edge: (7,8), ignore 
+# repeating state at PC=25, goes back to index:3
+plant.add_uncont_edges([(6, 3)], weight=[1])
+# repeating state at PC=25, goes back to index:4
+# repeating controllable edge: (3,4), ignore 
 #
 #
 #

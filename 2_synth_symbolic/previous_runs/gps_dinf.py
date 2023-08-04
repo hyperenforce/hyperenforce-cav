@@ -1,3 +1,6 @@
+import logging
+import sys
+logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 from hyper_synth.automata import Plant
 from hyper_synth.datatype import DataType
 from hyper_synth.encoding import (DataTypeEncoding, SetEncoding,
@@ -99,7 +102,7 @@ plant.add_uncont_edges([(5, 6)], weight=[1])
 # repeating controllable edge: (14,15), ignore 
 
 # trace 3
-# ucon_str_cookie = d
+# ucon_str_cookie = 
 # supp_0 = false
 # ucon_num_lo = 0
 # ucon_num_la = 0

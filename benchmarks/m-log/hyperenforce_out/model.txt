@@ -1,0 +1,42 @@
+pt = DataType({'is_cont': ['0', '1', 'null', ''], 'PC': ['3', '7', '23', '28', '34', '35', '37', '43', '49', '50', '52', '55', '60', '61', '65', '68', '69', 'null', ''], 'colorTheme': ['true', 'false', 'null', ''], 'con_msg': ['true', 'false', 'null', ''], 'isDebuggable': ['true', 'false', 'null', '']})
+plant = Plant(label_type=pt)
+# add an empty init state
+plant.add_vertex(label=pt.default_value)
+# make it initial state
+plant.initial_state_index = 0
+
+# trace 1
+plant.add_vertex(label=pt(is_cont="0", PC="3", colorTheme="true", con_msg="true", isDebuggable="true")) # index:1
+plant.add_cont_edges([(0, 1)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="7", colorTheme="true", con_msg="true", isDebuggable="true")) # index:2
+plant.add_cont_edges([(1, 2)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="23", colorTheme="true", con_msg="true", isDebuggable="true")) # index:3
+plant.add_cont_edges([(2, 3)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="28", colorTheme="true", con_msg="true", isDebuggable="true")) # index:4
+plant.add_cont_edges([(3, 4)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="34", colorTheme="true", con_msg="true", isDebuggable="true")) # index:5
+plant.add_cont_edges([(4, 5)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="35", colorTheme="true", con_msg="true", isDebuggable="true")) # index:6
+plant.add_cont_edges([(5, 6)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="37", colorTheme="true", con_msg="true", isDebuggable="true")) # index:7
+plant.add_cont_edges([(6, 7)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="43", colorTheme="true", con_msg="true", isDebuggable="true")) # index:8
+plant.add_cont_edges([(7, 8)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="49", colorTheme="true", con_msg="true", isDebuggable="true")) # index:9
+plant.add_cont_edges([(8, 9)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="50", colorTheme="true", con_msg="true", isDebuggable="true")) # index:10
+plant.add_cont_edges([(9, 10)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="52", colorTheme="true", con_msg="true", isDebuggable="true")) # index:11
+plant.add_cont_edges([(10, 11)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="55", colorTheme="true", con_msg="true", isDebuggable="true")) # index:12
+plant.add_cont_edges([(11, 12)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="60", colorTheme="true", con_msg="true", isDebuggable="true")) # index:13
+plant.add_cont_edges([(12, 13)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="61", colorTheme="true", con_msg="true", isDebuggable="true")) # index:14
+plant.add_cont_edges([(13, 14)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="65", colorTheme="true", con_msg="true", isDebuggable="true")) # index:15
+plant.add_cont_edges([(14, 15)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="68", colorTheme="true", con_msg="true", isDebuggable="true")) # index:16
+plant.add_cont_edges([(15, 16)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="69", colorTheme="true", con_msg="true", isDebuggable="true")) # index:17
+plant.add_cont_edges([(16, 17)], weight=[1])

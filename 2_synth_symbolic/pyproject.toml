@@ -19,9 +19,9 @@ python-sat = {extras = ["pblib"], version = "^0.1.7-alpha.19"}
 # This should be fixed in newer version of py-aiger (i.e. ^6.1.25)
 py-aiger = "^6.1.25"
 # If on Linux or Mac use
-# pyeda = "0.28.0"
+pyeda = "0.28.0"
 # On Windows, installation does not work very well, so a precompiled wheel is used instead (python 3.9)
-pyeda = {file = "pyeda-0.28.0-cp39-cp39-win_amd64.whl"}
+#pyeda = {file = "pyeda-0.28.0-cp39-cp39-win_amd64.whl"}
 python-dotenv = "^0.20.0"
 
 [tool.poetry.dev-dependencies]
@@ -29,8 +29,8 @@ pytest = "^7.1.2"
 pre-commit = "^2.20.0"
 
 [build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
 log_cli = true

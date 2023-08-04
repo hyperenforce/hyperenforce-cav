@@ -1,0 +1,18 @@
+pt = DataType({'is_cont': ['0', '1', 'null', ''], 'PC': ['4', '9', '12', '13', 'null', ''], 'con_y': ['true', 'false', 'null', ''], 'con_str_test1': ['b', 'null', ''], 'con_str_test2': ['test2', 'null', ''], 'aux_str_aaa': ['a', 'null', '']})
+plant = Plant(label_type=pt)
+# add an empty init state
+plant.add_vertex(label=pt.default_value)
+# make it initial state
+plant.initial_state_index = 0
+
+# trace 1
+# ucon_x = true
+# supp_0 = true
+plant.add_vertex(label=pt(is_cont="0", PC="4", con_y="true", con_str_test1="b", con_str_test2="test2", aux_str_aaa="a")) # index:1
+plant.add_uncont_edges([(0, 1)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="9", con_y="true", con_str_test1="test2", con_str_test2="test2", aux_str_aaa="a")) # index:2
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="12", con_y="true", con_str_test1="test2", con_str_test2="test2", aux_str_aaa="a")) # index:3
+# repeating controllable edge: (1,1), ignore 
+plant.add_vertex(label=pt(is_cont="1", PC="13", con_y="true", con_str_test1="test2", con_str_test2="test2", aux_str_aaa="a")) # index:4
+plant.add_cont_edges([(1, 4)], weight=[1])

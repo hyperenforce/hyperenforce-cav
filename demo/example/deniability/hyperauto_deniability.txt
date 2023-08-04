@@ -1,0 +1,26 @@
+#
+#
+#
+"""
+A hyper automaton: Forall Exists, Exists deniability
+forall A. exists B. exists C.
+G((L_obs[A] == L_obs[b]) /\\ (L_obs[A] == L_obs[C]) /\\ (H_balance[B] =/= H_balance[C]))
+"""
+# Plant output type
+# Forall quantifier
+
+pt_enc = DataTypeEncoding(pt)
+quants = (1,2)
+h = SymbolicHyperAutomaton(quants, pt, pt_enc)
+
+true_form = lambda v1, v2, v3: TRUE
+wait_outputs = lambda v1, v2, v3: NOT(OR(OR(pt_enc.encodes_var_form(v1, PC='13'),pt_enc.encodes_var_form(v2, PC='13'))),pt_enc.encodes_var_form(v2, PC='13'))
+end_condition = lambda v1, v2, v3: AND(AND(pt_enc.same_var_form(v1, v2, 'con_l_obs'),pt_enc.same_var_form(v1, v3, 'con_l_obs')), AND(AND(pt_enc.encodes_var_form(v1, PC='13'), pt_enc.encodes_var_form(v1, PC='13')),pt_enc.encodes_var_form(v2, PC='13')))
+
+h.add_vertices(3, )
+h.initial_state_indices = [0]
+h.vs["marked"] = True
+
+h.add_edge(0, 1, true_form)
+h.add_edge(1, 1, wait_outputs)
+h.add_edge(1, 2, end_condition)

@@ -11,15 +11,12 @@ STEP 1: EXTRACT TRACES from EXPOSE OUTPUT
 # HAS TO BE CORRECTLY SET UP BY THE USER
 counters = ['i'] # vars simply used as counters
 initialization = [] # where the variable initialization happen
-EOF='/// END OF FILE ///' # a simple mark as ENF of a javascript
-
+EOF='/* END OF PROGRAM */' # a simple mark as ENF of a javascript
 
 # aux global variables
 trace = []
 traces = []
 program = []
-
-
 
 """
 Extract infomation that we want in the enforcer from expoSE output.txt
@@ -180,7 +177,7 @@ def get_program_line_num(line):
 
 
 """
-A helper to get program line number
+A helper to get program seconds
 """
 def get_expose_seconds(line):
     match = re.search('(\d+\.\d+)s', line)
@@ -242,8 +239,35 @@ def build_trace(program, trace):
                 name = info[0].replace('var ','').strip()
                 if (name in dict_init.keys()):
                     value = info[1].strip()
+                    # if value is another symbolic variables
+                    if(value in state_dict.keys()):
+                        value = state_dict[value]
+                    # if value is a arithmetic operations
+                    elif('-' in value):
+                        LS = re.search('(.*)(\-)', value)[0].replace(" ", "").replace("-", "")
+                        RS = re.search('(\-)(.*)', value)[0].replace(" ", "").replace("-", "").replace(";", "")
+                        if (LS.isdigit()):
+                            LS = float(LS)
+                        else:
+                            LS = float(state_dict[LS])
+                        if (RS.isdigit()):
+                            RS = float(RS)
+                        else:
+                            RS = float(state_dict[RS])
+                        value = LS-RS
+                    elif('+' in value):
+                        LS = re.search('(.*)(\+)', value)[0].replace(" ", "").replace("+", "")
+                        RS = re.search('(\+)(.*)', value)[0].replace(" ", "").replace("+", "").replace(";", "")
+                        if (LS.isdigit()):
+                            LS = float(LS)
+                        else:
+                            LS = float(state_dict[LS])
+                        if (RS.isdigit()):
+                            RS = float(RS)
+                        else:
+                            RS = float(state_dict[RS])
+                        value = LS+RS
                     state_dict[name] = value
-
 
             state_dict['PC'] = line_num+1
             # print(state_dict)
@@ -272,6 +296,9 @@ def helper_visualize_trace(trace):
     for state in trace:
         print(state)
 
+"""
+types for symbolic automata
+"""
 GLOBAL_TYPES={}
 def get_types(props):
     global observable_states
@@ -284,12 +311,23 @@ def get_types(props):
             GLOBAL_TYPES[name] = ['HIGH_a', 'LOW_b']
             for i in range(0,11):
                 GLOBAL_TYPES[name].append(str(i))
+        elif ('num_' in name):
+            bound=99
+            GLOBAL_TYPES[name]=[str(x) for x in range(bound)] + [str(x) + '.0' for x in range(bound)]
+        elif (name=='con_l_obs'):
+            bound=40
+            GLOBAL_TYPES[name]=[str(x) for x in range(bound)] + [str(x) + '.0' for x in range(bound)]
+        elif (name=='con_debit_amount'):
+            bound=40
+            GLOBAL_TYPES[name]=[str(x) for x in range(bound)] + [str(x) + '.0' for x in range(bound)]
+        elif (name=='con_str_polluted'):
+            GLOBAL_TYPES[name]=["'undefined'", "'yes'", "'no'"]
         elif (name == 'con_num_longitude'):
-            for i in range(0, 50):
-                GLOBAL_TYPES[name].append(str(i))
+            bound=50
+            GLOBAL_TYPES[name]=[str(x) for x in range(bound)] + [str(x) + '.0' for x in range(bound)]
         elif (name == 'con_num_latitude'):
-            for i in range(0, 50):
-                GLOBAL_TYPES[name].append(str(i))
+            bound=50
+            GLOBAL_TYPES[name]=[str(x) for x in range(bound)] + [str(x) + '.0' for x in range(bound)]
         elif (name == 'con_str_cookie'):
             GLOBAL_TYPES[name] = ['GPS_tracking_enabled']
         elif (name == 'ucon_str_cookie'):
@@ -308,8 +346,10 @@ def get_types(props):
                 for i in range(0, 2):
                     GLOBAL_TYPES[name].append(str(i))
             if (name == 'PC'):
-                for i in observable_states:
-                    GLOBAL_TYPES[name].append(str(i))
+                # for i in observable_states:
+                #     GLOBAL_TYPES[name].append(str(i))
+                bound=100
+                GLOBAL_TYPES[name]=[str(x) for x in range(bound)] + [str(x) + '.0' for x in range(bound)]
             ### cases specific scopes, csf23
             # if (name == 'con_num_longitude'):
             #     for i in range(0,11):
@@ -351,7 +391,6 @@ def add_new_cont_edge(pre, post):
         return string
     else:
         added_cont_edges.append((pre, post))
-
     # code += str(pre) + ", "
     # code += str(post) + ")\n"
     # [(0, 3)], weight=[3]
@@ -646,6 +685,9 @@ with open(outpylocation, 'w') as write_python:
     synth = open('1_buildModel/modelbuilder_temp/synth.txt', 'r')
     # header = open('myoutputs/header.txt', 'r')
     # synth = open('myoutputs/synth.txt', 'r')
+    write_python.write("import logging\n")
+    write_python.write("import sys\n")
+    write_python.write("logging.basicConfig(stream=sys.stdout, level=logging.INFO)\n")
 
     for line in header:
         write_python.write(line)
@@ -667,6 +709,7 @@ print('(states of extended plant:)')
 for v in added_vertices:
     print(str(temp_c), ": ", v)
     temp_c += 1
+print('size of ectended plant: ', temp_c)
 
 # print('(uncontrollable edges: )')
 # for e in added_uncon_edges:

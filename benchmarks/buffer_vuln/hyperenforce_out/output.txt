@@ -1,0 +1,103 @@
+
+/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/.eslintrc.json
+  0:0  warning  File ignored by default.  Use a negated ignore pattern (like "--ignore-pattern '!<relative/path/to/filename>'") to override
+
+/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Distributor/src/Spawn.js
+  99:21  warning  Unnecessary escape character: \/  no-useless-escape
+
+✖ 2 problems (0 errors, 2 warnings)
+
+Building Libs
+Successfully compiled 1 file with Babel (339ms).
+Building Distributor
+Successfully compiled 15 files with Babel (823ms).
+Building Analyser
+Successfully compiled 24 files with Babel (1424ms).
+Building into
+Bundling Analyser/bin/Analyser.js into bin/bundle.js
+[+] ExpoSE /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/buffer_vuln/buffer_extended.js concurrent: 1 timeout: 7200000 per-test: 2400000
+[-] [0 done /0 queued / 1 running / 0 errors / 0% coverage ] ***[1000D[0K[\] [0 done /0 queued / 1 running / 0 errors / 0% coverage ] ***[?] Built with VERY logging enabled
+[?] Built with FINE logging enabled
+[!] Built with BASE logging enabled
+[!] Intial Input {"_bound":0}
+Transforming
+Failed to instrument var S$ = require('S$');
+
+/* SYMBOLIC VARS */
+var no_leaked = S$.symbol('no_leaked', true)
+var bufferlist = S$.symbol('bufferlist', '')
+
+/* MAIN JS PROGRAM */
+// var utils = require("iflow");
+// var policy = require("../Policy.js");
+// function f() {}
+​
+// utils.addSink(f);
+​
+const BufferList = require('bl');
+​
+/* Coverage improving instructions */
+// var bl = new BufferList();
+// bl.append(utils.source(new Buffer('abcd'), utils.HIGH_LEVEL, "module-interface"))
+// bl.append(new Buffer('xxxx'));
+// console.log(bl._offset());
+// try {
+//     bl.append(utils.source('abcd', utils.HIGH_LEVEL, "module-interface"));
+// ​
+// }catch(e){}
+// bl.readInt16BE(0);
+// bl.readInt16BE(3);
+// try {
+//     bl.readDoubleBE(10);
+// }catch(e){}
+// /* End of coverage improving instructions */
+// ​
+// var bl = new BufferList();
+// bl.append(new Buffer('abcd'));
+// // appends a Buffer holding 100 bytes of uninitialized memory
+// bl.append(NO_LEAKED);
+// bl.append(new Buffer('jxsd'));
+// ​
+// var res = "";
+// for (var i = 0; i < NO_LEAKED+8; i++)
+//     res += String.fromCharCode(bl.readUInt8(i))
+// ​
+// console.log(res);
+// f(res);
+// setTimeout( function() {
+//     process.exit(0)
+// }, 2000);
+
+/* END OF PROGRAM */
+
+[!] Uncaught exception SyntaxError: unknown: Unexpected character '​' (11:0) Stack: SyntaxError: unknown: Unexpected character '​' (11:0)
+   9 | // var policy = require("../Policy.js");
+  10 | // function f() {}
+> 11 | ​
+     | ^
+  12 | // utils.addSink(f);
+  13 | ​
+  14 | const BufferList = require('bl');
+    at Parser.pp$5.raise (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.getTokenFromCode (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:1147:10)
+    at Parser.readToken (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:776:19)
+    at Parser.nextToken (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:766:19)
+    at Parser.next (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:691:10)
+    at Parser.eat (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:698:12)
+    at Parser.pp$3.parseCallExpressionArguments (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3560:16)
+    at Parser.pp$3.parseSubscripts (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3533:31)
+    at Parser.pp$3.parseExprSubscripts (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3474:19)
+[!] Finished play with PC 
+[!] Wrote final coverage to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-18200-dd1w9jTl2iQS
+[!] Wrote final output to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-18200-jXo5e0tKADCd
+[1000D[0K[|] [1 done /0 queued / 0 running / 1 errors / 0% coverage ] ***
+[+] {"_bound":0} took 2.603s
+[!] SyntaxError: unknown: Unexpected character '​' (11:0)
+[!] expoSE replay '/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/buffer_vuln/buffer_extended.js' '{"_bound":0}'
+[!] Stats
+[!] Done
+[+] Total Lines Of Code 0
+[+] Total Coverage: NaN%
+[+] EXPOSE_PRINT_COVERAGE=1 for line by line breakdown
+[+] ExpoSE Finished. 1 paths, 1 errors

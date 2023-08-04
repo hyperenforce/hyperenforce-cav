@@ -1,0 +1,16 @@
+=== ExpoSE Statistical Report === 
+General Function Call: 33
+Symbolic Values:     9
+Symbolic Primitives: 9
+Total Lines Of Code 18
+ExpoSE total time:  9.132 s
+
+=== HyperEnforce Statistical Report === 
+JS File name:                         test//tsu/implicit1_augmented.js
+Number of concrete traces:            3
+Number of states:                     7
+Number of observable states:          2
+List of observable states:            [3, 18]
+Time took for extracting ExpoSE info: 0.001846 
+Time took for building Kripke struct: 0.000348 
+Total time:                           0.002319 

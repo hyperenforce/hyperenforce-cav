@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by igraph (http://igraph.org/) for use in Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+width="400px" height="400px"> <defs id="defs3">
+<marker
+   inkscape:stockid="Arrow2Mend0"
+   orient="auto"
+   refY="0.0"
+   refX="0.0"
+   id="Arrow2Mend0"
+   style="overflow:visible;">
+  <path
+     id="pathArrow0"
+     style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;fill:black"
+     d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+     transform="scale(0.7) rotate(180) translate(1,0)" />
+</marker>
+</defs>
+<g inkscape:groupmode="layer" id="layer2" inkscape:label="Lines" sodipodi:insensitive="true">
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 210.26473659116107,240.5850233033356 209.50824643564548,160.10463368916027"
+    id="path0"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g0"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g1"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path0" startOffset="50%">
+euc
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 209.4142537571961,150.10507543009712 209.48023670920045,81.57579168656522"
+    id="path1"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g1"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g2"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path1" startOffset="50%">
+euc
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 209.4898651363216,71.57579632189675 209.66591544614113,19.999941743158985"
+    id="path2"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g2"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g3"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path2" startOffset="50%">
+euc
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 210.26473659116107,240.5850233033356 152.51856763878396,265.8925629812203"
+    id="path3"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g0"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g4"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path3" startOffset="50%">
+euc
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 143.3595349894931,269.90655363009137 78.78988825488412,255.53212700085288"
+    id="path4"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g4"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g5"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path4" startOffset="50%">
+ec
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 69.02883839451734,253.35913237972892 19.827467663131053,244.0992716210051"
+    id="path5"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g5"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g6"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path5" startOffset="50%">
+euc
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 210.26473659116107,240.5850233033356 152.51856763878396,265.8925629812203"
+    id="path6"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g0"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g4"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path6" startOffset="50%">
+euc
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 143.3595349894931,269.90655363009137 107.36425096241845,329.0558844601009"
+    id="path7"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g4"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g7"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path7" startOffset="50%">
+euc
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 102.16569373583602,337.5984252274574 73.7863964817678,381.59646497642484"
+    id="path8"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g7"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g8"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path8" startOffset="50%">
+euc
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 210.26473659116107,240.5850233033356 257.4273393116413,259.11275961211874"
+    id="path9"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g0"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g9"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path9" startOffset="50%">
+euc
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 266.7348830623734,262.7692099848447 299.6363458819404,307.61541778468603"
+    id="path10"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g9"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g10"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path10" startOffset="50%">
+euc
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 305.55164769395594,315.67824634994554 342.120875988293,318.87047026847097"
+    id="path11"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g10"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g11"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path11" startOffset="50%">
+ec
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 210.26473659116107,240.5850233033356 257.4273393116413,259.11275961211874"
+    id="path12"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g0"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g9"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path12" startOffset="50%">
+euc
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 266.7348830623734,262.7692099848447 317.7566096072932,267.75529848007176"
+    id="path13"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g9"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g12"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path13" startOffset="50%">
+ec
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 327.709198235452,268.7279133055011 347.77179659194115,310.7171415205552"
+    id="path14"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g12"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g11"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path14" startOffset="50%">
+ec
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 210.26473659116107,240.5850233033356 257.4273393116413,259.11275961211874"
+    id="path15"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g0"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g9"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path15" startOffset="50%">
+euc
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 266.7348830623734,262.7692099848447 317.7566096072932,267.75529848007176"
+    id="path16"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g9"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g12"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path16" startOffset="50%">
+ec
+    </textPath>
+</text>
+<path
+    style="fill:none;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend0)"
+    d="M 327.709198235452,268.7279133055011 380.25486626826046,256.63209277984066"
+    id="path17"
+    inkscape:connector-type="polyline"
+    inkscape:connector-curvature="0"
+    inkscape:connection-start="#g12"
+    inkscape:connection-start-point="d4"
+    inkscape:connection-end="#g13"
+    inkscape:connection-end-point="d4" />
+<text dy="-2%">
+    <textPath href="#path17" startOffset="50%">
+euc
+    </textPath>
+</text>
+  </g>
+
+  <g inkscape:label="Nodes"                     inkscape:groupmode="layer" id="layer1">
+  <!-- Vertices -->
+    <g id="g0" transform="translate(210.26473659116107,240.5850233033356)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text0" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan0" sodipodi:role="line">0</tspan></text>
+    </g>
+    <g id="g1" transform="translate(209.4142537571961,150.10507543009712)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text1" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan1" sodipodi:role="line">1</tspan></text>
+    </g>
+    <g id="g2" transform="translate(209.4898651363216,71.57579632189675)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text2" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan2" sodipodi:role="line">2</tspan></text>
+    </g>
+    <g id="g3" transform="translate(209.70004949697633,10.0)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text3" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan3" sodipodi:role="line">3</tspan></text>
+    </g>
+    <g id="g4" transform="translate(143.3595349894931,269.90655363009137)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text4" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan4" sodipodi:role="line">4</tspan></text>
+    </g>
+    <g id="g5" transform="translate(69.02883839451734,253.35913237972892)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text5" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan5" sodipodi:role="line">5</tspan></text>
+    </g>
+    <g id="g6" transform="translate(10.0,242.24970969175985)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text6" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan6" sodipodi:role="line">6</tspan></text>
+    </g>
+    <g id="g7" transform="translate(102.16569373583602,337.5984252274574)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text7" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan7" sodipodi:role="line">7</tspan></text>
+    </g>
+    <g id="g8" transform="translate(68.36600912406489,390.0)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text8" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan8" sodipodi:role="line">8</tspan></text>
+    </g>
+    <g id="g9" transform="translate(266.7348830623734,262.7692099848447)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text9" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan9" sodipodi:role="line">9</tspan></text>
+    </g>
+    <g id="g10" transform="translate(305.55164769395594,315.67824634994554)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text10" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan10" sodipodi:role="line">10</tspan></text>
+    </g>
+    <g id="g11" transform="translate(352.0829923448472,319.7400895521092)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text11" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan11" sodipodi:role="line">11</tspan></text>
+    </g>
+    <g id="g12" transform="translate(327.709198235452,268.7279133055011)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text12" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan12" sodipodi:role="line">12</tspan></text>
+    </g>
+    <g id="g13" transform="translate(390.0,254.3887986505495)">
+     <ellipse cx="0" cy="0" rx="10" ry="10" fill="#80b3ff"/>
+      <text sodipodi:linespacing="125%" y="5.0" x="0" id="text13" style="font-size:16pxpx;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+<tspan y="5.0" x="0" id="tspan13" sodipodi:role="line">13</tspan></text>
+    </g>
+</g>
+
+</svg>

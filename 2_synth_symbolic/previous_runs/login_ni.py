@@ -1,3 +1,6 @@
+import logging
+import sys
+logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 from hyper_synth.automata import Plant
 from hyper_synth.datatype import DataType
 from hyper_synth.encoding import (DataTypeEncoding, SetEncoding,

@@ -1,0 +1,3 @@
+{'is_cont': 0, 'PC': 4, 'ucon_x': 'true', 'con_y': 'true', 'supp_0': 'true', 'con_str_test1': 'b', 'con_str_test2': 'test2', 'aux_str_aaa': 'a'} ---> 
+{'is_cont': 1, 'PC': 13, 'ucon_x': 'true', 'con_y': 'true', 'supp_0': 'true', 'con_str_test1': 'test2', 'con_str_test2': 'test2', 'aux_str_aaa': 'a'} ---> 
+(END)
