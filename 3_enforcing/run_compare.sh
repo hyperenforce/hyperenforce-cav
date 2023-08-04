@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECTNAME="implicit1"
+# PROJECTNAME="implicit1"
 # PROJECTNAME="implicit2"
 # PROJECTNAME="login_ni"
 # PROJECTNAME="gps_dni"
@@ -8,7 +8,10 @@ PROJECTNAME="implicit1"
 # PROJECTNAME="printer_ci"
 # PROJECTNAME="m-log_ci"
 
-
+# PROJECTNAME="socleak"
+# PROJECTNAME="socleak2"
+PROJECTNAME="toml"
+# PROJECTNAME="deniability"
 
 ENFORCER="hyperenforce_cases/${PROJECTNAME}/${PROJECTNAME}_enforcer.js"
 # ENFORCEDJS="hyperenforce_cases/${PROJECTNAME}/${PROJECTNAME}_enforced.js"

@@ -1,3 +1,0 @@
-{'is_cont': 0, 'PC': 4, 'ucon_x': 'true', 'ucon_z': 'true', 'con_y': 'true', 'supp_0': 'true'} ---> {'is_cont': 0, 'PC': 12, 'ucon_x': 'true', 'ucon_z': 'true', 'con_y': 'true', 'supp_0': 'true'} ---> (END)
-{'is_cont': 0, 'PC': 4, 'ucon_x': 'false', 'ucon_z': 'false', 'con_y': 'false', 'supp_0': 'false'} ---> {'is_cont': 0, 'PC': 15, 'ucon_x': 'false', 'ucon_z': 'false', 'con_y': 'false', 'supp_0': 'false'} ---> (END)
-{'is_cont': 0, 'PC': 4, 'ucon_x': 'false', 'ucon_z': 'true', 'con_y': 'false', 'supp_0': 'false'} ---> {'is_cont': 0, 'PC': 12, 'ucon_x': 'true', 'ucon_z': 'true', 'con_y': 'false', 'supp_0': 'false'} ---> {'is_cont': 1, 'PC': 25, 'ucon_x': 'true', 'ucon_z': 'true', 'con_y': 'false', 'supp_0': 'false'} ---> (END)

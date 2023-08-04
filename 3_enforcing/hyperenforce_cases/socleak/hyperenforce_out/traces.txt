@@ -1,0 +1,3 @@
+{'is_cont': 0, 'PC': 4, 'con_onloadresult': 'true', 'con_imgerror': 'true', 'supp_0': 'true', 'ucon_str_imgonload': 'null', 'ucon_str_img': 'null', 'ucon_str_platform': 'null', 'con_ran_var': 'true'} ---> (END)
+{'is_cont': 0, 'PC': 4, 'con_onloadresult': 'false', 'con_imgerror': 'false', 'supp_0': 'false', 'ucon_str_imgonload': '', 'ucon_str_img': '', 'ucon_str_platform': '/login?redirect_after_login=%2Ffavicon.ico', 'con_ran_var': 'false'} ---> (END)
+{'is_cont': 0, 'PC': 4, 'con_onloadresult': 'false', 'con_imgerror': 'false', 'supp_0': 'false', 'ucon_str_imgonload': '', 'ucon_str_img': '', 'ucon_str_platform': '/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp', 'con_ran_var': 'false'} ---> (END)

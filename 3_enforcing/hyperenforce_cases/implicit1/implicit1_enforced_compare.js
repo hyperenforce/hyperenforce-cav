@@ -23,8 +23,6 @@ var total_monitoring = 0;
 var total_no_monitoring = 0;
 var total_exectime = 0;
 var normalized_overhead = 0;
-
-
 start = Date.now();
 
 // for (i = 1; i <= 5000000; i++){
@@ -58,8 +56,6 @@ total_wo_enforcing = (total_exectime - total_monitoring + total_no_monitoring)
 // normalized_overhead = (((total_monitoring)) / (total_exectime - (total_exectime - total_monitoring))) * 100
 console.log(`Total execution time w/ enforcing:  X1 = ${total_w_enforcing } ms`);
 console.log(`Total execution time w/o enforcing: X2 = ${total_wo_enforcing } ms`);
-// console.log(`Total monitoring time:              X3 = ${total_monitoring}`);
-
 console.log(`overhead = ${((total_w_enforcing / total_wo_enforcing).toFixed(4)) * 100} %` );
 // console.log(`Normalized overhead should be something like: ((X - X_min) / (X_max - X_min)) * 100`);
 

@@ -1,20 +1,23 @@
 var S$ = require('S$');
 
 /* SYMBOLIC VARS */
-var no_leaked = S$.symbol('no_leaked', true)
-var bufferlist = S$.symbol('bufferlist', '')
+var ucon_no_leaked = S$.symbol('no_leaked', true)
+var con_str_bufferlist = S$.symbol('con_str_bufferlist', '')
+var supp_0 = S$.symbol('supp_0', true)
 
 /* MAIN JS PROGRAM */
 // var utils = require("iflow");
 // var policy = require("../Policy.js");
 // function f() {}
-​
+// ​var utils = "iflow";
+// var policy = "../Policy.js";
 // utils.addSink(f);
-​
+​ucon_no_leaked = false
 // const BufferList = require('bl');
-​
 /* Coverage improving instructions */
 // var bl = new BufferList();
+con_str_bufferlist = ''
+con_str_bufferlist = 'abcd'
 // bl.append(utils.source(new Buffer('abcd'), utils.HIGH_LEVEL, "module-interface"))
 // bl.append(new Buffer('xxxx'));
 // console.log(bl._offset());

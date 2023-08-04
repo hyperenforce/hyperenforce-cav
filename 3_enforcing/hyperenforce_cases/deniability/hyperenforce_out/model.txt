@@ -1,0 +1,18 @@
+pt = DataType({'is_cont': ['0', '1', 'null', ''], 'PC': ['4', '13', '21', 'null', ''], 'con_num_l_obs': ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'null', ''], 'con_num_debit_amount': ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'null', '']})
+plant = Plant(label_type=pt)
+# add an empty init state
+plant.add_vertex(label=pt.default_value)
+# make it initial state
+plant.initial_state_index = 0
+
+# trace 1
+# ucon_num_h_balance = 0
+# supp_0 = true
+plant.add_vertex(label=pt(is_cont="0", PC="4", con_num_l_obs="0", con_num_debit_amount="0")) # index:1
+plant.add_uncont_edges([(0, 1)], weight=[1])
+plant.add_vertex(label=pt(is_cont="1", PC="13", con_num_l_obs="0", con_num_debit_amount="0")) # index:2
+plant.add_cont_edges([(1, 2)], weight=[1])
+plant.add_vertex(label=pt(is_cont="0", PC="21", con_num_l_obs="0", con_num_debit_amount="0")) # index:3
+# repeating uncontrollable edge: (2,2), ignore 
+# repeating state at PC=13, goes back to index:2
+# repeating controllable edge: (2,2), ignore 

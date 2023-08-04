@@ -1,0 +1,3190 @@
+
+/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/.eslintrc.json
+  0:0  warning  File ignored by default.  Use a negated ignore pattern (like "--ignore-pattern '!<relative/path/to/filename>'") to override
+
+/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Distributor/src/Spawn.js
+  99:21  warning  Unnecessary escape character: \/  no-useless-escape
+
+✖ 2 problems (0 errors, 2 warnings)
+
+Building Libs
+Successfully compiled 1 file with Babel (338ms).
+Building Distributor
+Successfully compiled 15 files with Babel (834ms).
+Building Analyser
+Successfully compiled 24 files with Babel (1404ms).
+Building into
+Bundling Analyser/bin/Analyser.js into bin/bundle.js
+[+] ExpoSE /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js concurrent: 1 timeout: 7200000 per-test: 2400000
+[-] [0 done /0 queued / 1 running / 0 errors / 0% coverage ] ***[1000D[0K[\] [0 done /0 queued / 1 running / 0 errors / 0% coverage ] ***[?] Built with VERY logging enabled
+[?] Built with FINE logging enabled
+[!] Built with BASE logging enabled
+[!] Intial Input {"_bound":0}
+Transforming
+[!] ====== ENTERING SCRIPT /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js depth 0 ======
+[?] decl S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl con_onloadresult at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl con_imgerror at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl supp_0 at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl ucon_str_imgonload at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl ucon_str_img at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl ucon_str_platform at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl con_ran_var at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl img at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] Read require at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:10:1:17)
+[?] Execute function require at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:10:1:23)
+[?] require unmodeled
+[?] TODO: IsNative Uncached
+Transforming
+[?] ====== ENTERING SCRIPT /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js depth 1 ======
+[?] decl AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:1:1:74:32)
+[?] Write AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:8:21:8:23)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:13:1:13:14)
+[?] Put field {
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:13:1:13:28)
+[?] PutField [object Object] at existing
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:1:18:14)
+[?] Put field {
+    existing: {
+}
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:1:26:2)
+[?] PutField [object Object] at rename
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:28:1:28:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous
+}[assume] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:28:1:32:2)
+[?] PutField [object Object] at assume
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:1:37:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:1:43:2)
+[?] PutField [object Object] at symbol
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:45:1:45:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous
+}[pureSymbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:45:1:47:2)
+[?] PutField [object Object] at pureSymbol
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:1:52:14)
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:43)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:51)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[notAnError] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:62)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:64)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:64)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous
+}[NotAnErrorException] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:1:52:64)
+[?] PutField [object Object] at NotAnErrorException
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:57:1:57:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException
+}[fail] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:57:1:59:2)
+[?] PutField [object Object] at fail
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:65:1:65:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous
+}[assert] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:65:1:72:2)
+[?] PutField [object Object] at assert
+[?] Read module at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:74:1:74:7)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:74:18:74:31)
+[?] Put field {
+    8: internalRequire,
+    id: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js,
+    path: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src,
+    exports: {
+},
+    parent: {
+        8: internalRequire,
+        id: .,
+        path: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak,
+        exports: Max Depth,
+        parent: null,
+        filename: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js,
+        loaded: false,
+        children: Max Depth,
+        paths: Max Depth,
+        load: anonymous,
+        require: anonymous,
+        _compile: anonymous
+},
+    filename: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js,
+    loaded: false,
+    children: [],
+    paths: [/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/node_modules, /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/node_modules, /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/node_modules, /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/node_modules, /Users/tzuhan/+research/hyper_enforce/HyperEnforce/node_modules, /Users/tzuhan/+research/hyper_enforce/node_modules, /Users/tzuhan/+research/node_modules, /Users/tzuhan/node_modules, /Users/node_modules, /node_modules],
+    load: anonymous,
+    require: anonymous,
+    _compile: anonymous
+}[exports] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:74:1:74:31)
+[?] PutField [object Object] at exports
+[?] ====== EXITING SCRIPT /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js depth 1 ======
+[?] Exit function (require) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:10:1:23)
+[?] Write S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:10:1:23)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:26)
+[?] Get field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:33)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:59)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left true result boolean
+[?] Op !== left boolean right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+}[con_onloadresult] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+}[con_onloadresult] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at con_onloadresult
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"con_onloadresult","1":true} con_onloadresult true
+[?] Initializing fresh symbolic variable con_onloadresult using concrete value true
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:59)
+[?] Write con_onloadresult at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:59)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:29)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:51)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left true result boolean
+[?] Op !== left boolean right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1
+}[con_imgerror] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1
+}[con_imgerror] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at con_imgerror
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"con_imgerror","1":true} con_imgerror true
+[?] Initializing fresh symbolic variable con_imgerror using concrete value true
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:51)
+[?] Write con_imgerror at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:51)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:16)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:23)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:39)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left true result boolean
+[?] Op !== left boolean right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1
+}[supp_0] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1
+}[supp_0] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at supp_0
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"supp_0","1":true} supp_0 true
+[?] Initializing fresh symbolic variable supp_0 using concrete value true
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:39)
+[?] Write supp_0 at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:39)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:28)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:35)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:65)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left null result string
+[?] Op !== left string right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1
+}[ucon_str_imgonload] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1
+}[ucon_str_imgonload] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at ucon_str_imgonload
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"ucon_str_imgonload","1":"null"} ucon_str_imgonload null
+[?] Initializing fresh symbolic variable ucon_str_imgonload using concrete value null
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:65)
+[?] Write ucon_str_imgonload at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:65)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:29)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:53)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left null result string
+[?] Op !== left string right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1
+}[ucon_str_img] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1
+}[ucon_str_img] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at ucon_str_img
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"ucon_str_img","1":"null"} ucon_str_img null
+[?] Initializing fresh symbolic variable ucon_str_img using concrete value null
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:53)
+[?] Write ucon_str_img at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:53)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:27)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:34)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:63)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left null result string
+[?] Op !== left string right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1,
+    ucon_str_img: 1
+}[ucon_str_platform] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1,
+    ucon_str_img: 1
+}[ucon_str_platform] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at ucon_str_platform
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"ucon_str_platform","1":"null"} ucon_str_platform null
+[?] Initializing fresh symbolic variable ucon_str_platform using concrete value null
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:63)
+[?] Write ucon_str_platform at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:63)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:21)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1,
+        ucon_str_platform: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:28)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:49)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left true result boolean
+[?] Op !== left boolean right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1,
+        ucon_str_platform: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1,
+        ucon_str_platform: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1,
+    ucon_str_img: 1,
+    ucon_str_platform: 1
+}[con_ran_var] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1,
+        ucon_str_platform: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1,
+    ucon_str_img: 1,
+    ucon_str_platform: 1
+}[con_ran_var] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at con_ran_var
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"con_ran_var","1":true} con_ran_var true
+[?] Initializing fresh symbolic variable con_ran_var using concrete value true
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:49)
+[?] Write con_ran_var at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:49)
+[?] Read ucon_str_platform at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:15:5:15:22)
+[?] Not concretizing === null /login?redirect_after_login=%2Ffavicon.ico string string
+[?] Op === left {
+    concrete: null,
+    symbolic: {
+        context: Max Depth,
+        ast: Max Depth,
+        _fields: Max Depth,
+        checks: Max Depth
+},
+    _arrayType: undefined
+} right /login?redirect_after_login=%2Ffavicon.ico result_c undefined at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:15:5:15:71)
+[?] Symbolic Binary: {"0":"===","1":"null","2":{"context":{"ctx":{"id":1,"_ptr":true}},"ast":{"id":40,"_ptr":true},"_fields":[],"checks":[]},"3":"/login?redirect_after_login=%2Ffavicon.ico","4":{"context":{"ctx":{"id":1,"_ptr":true}},"ast":{"id":44,"_ptr":true},"_fields":[],"checks":[]}}
+[?] Evaluating conditional {
+    concrete: false,
+    symbolic: {
+        context: Max Depth,
+        ast: Max Depth,
+        _fields: Max Depth,
+        checks: Max Depth
+},
+    _arrayType: undefined
+}
+[?] Evaluating symbolic condition (= ucon_str_platform "/login?redirect_after_login=%2Ffavicon.ico") at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:15:5:15:71)
+[?] Concrete result was false, pushing not of (= ucon_str_platform "/login?redirect_after_login=%2Ffavicon.ico")
+[?] Read ucon_str_platform at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:16:5:16:22)
+[?] Not concretizing === null /login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp string string
+[?] Op === left {
+    concrete: null,
+    symbolic: {
+        context: Max Depth,
+        ast: Max Depth,
+        _fields: Max Depth,
+        checks: Max Depth
+},
+    _arrayType: undefined
+} right /login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp result_c undefined at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:16:5:16:100)
+[?] Symbolic Binary: {"0":"===","1":"null","2":{"context":{"ctx":{"id":1,"_ptr":true}},"ast":{"id":40,"_ptr":true},"_fields":[],"checks":[]},"3":"/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp","4":{"context":{"ctx":{"id":1,"_ptr":true}},"ast":{"id":47,"_ptr":true},"_fields":[],"checks":[]}}
+[?] Evaluating conditional {
+    concrete: false,
+    symbolic: {
+        context: Max Depth,
+        ast: Max Depth,
+        _fields: Max Depth,
+        checks: Max Depth
+},
+    _arrayType: undefined
+}
+[?] Evaluating symbolic condition (= ucon_str_platform
+   "/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp") at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:16:5:16:100)
+[?] Concrete result was false, pushing not of (= ucon_str_platform
+   "/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp")
+[!] ====== EXITING SCRIPT /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js depth 0 ======
+[!] Uncaught exception ReferenceError: document is not defined Stack: ReferenceError: document is not defined
+    at Object.<anonymous> (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:27:83)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/src/js/commands/jalangi.js:115:12)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+    at startProgram (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/src/js/commands/jalangi.js:127:19)
+    at SymbolicExecution.onReady (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/bin/SymbolicExecution.js:636:7)
+    at Object.<anonymous> (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/src/js/commands/jalangi.js:131:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+[!] Finished play with PC (not (= ucon_str_platform "/login?redirect_after_login=%2Ffavicon.ico")),(not (= ucon_str_platform
+        "/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp"))
+[!] Wrote final coverage to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-60276-n1e7MQUMZFIK
+[?] Checking if (= ucon_str_platform "/login?redirect_after_login=%2Ffavicon.ico") is satisfiable
+[?] Satisfiable. Remembering new input: {
+    con_onloadresult: false,
+    con_imgerror: false,
+    supp_0: false,
+    ucon_str_imgonload: ,
+    ucon_str_img: ,
+    ucon_str_platform: /login?redirect_after_login=%2Ffavicon.ico,
+    con_ran_var: false,
+    _bound: 1
+}
+[!] Wrote final output to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-60276-vyfW7svn7kQs
+[?] Solver {
+(declare-fun str.isWhite (String) Bool)
+(define-funs-rec ( ( str.repeat ((x!1 String) (x!2 Int)) String)
+                   ( str.whiteLeft ((x!1 String) (x!2 Int)) Int)
+                   ( str.whiteRight ((x!1 String) (x!2 Int)) Int))
+                 ( (ite (<= x!2 0)
+                        ""
+                        (str.++ x!1 ((_ str.repeat 0) x!1 (- x!2 1))))
+                   (ite (= (str.at x!1 x!2) " ")
+                        ((_ str.whiteLeft 0) x!1 (+ x!2 1))
+                        x!2)
+                   (ite (= (str.at x!1 x!2) " ")
+                        ((_ str.whiteRight 0) x!1 (- x!2 1))
+                        x!2)))
+(model-add str.isWhite ((x!1 String)) Bool (= x!1 " "))
+}
+[?] Checking if (= ucon_str_platform
+   "/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp") is satisfiable
+[?] Satisfiable. Remembering new input: {
+    con_onloadresult: false,
+    con_imgerror: false,
+    supp_0: false,
+    ucon_str_imgonload: ,
+    ucon_str_img: ,
+    ucon_str_platform: /login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp,
+    con_ran_var: false,
+    _bound: 2
+}
+[!] Wrote final output to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-60276-vyfW7svn7kQs
+[?] Solver {
+(declare-fun str.isWhite (String) Bool)
+(declare-fun ucon_str_platform () String)
+(define-funs-rec ( ( str.repeat ((x!1 String) (x!2 Int)) String)
+                   ( str.whiteLeft ((x!1 String) (x!2 Int)) Int)
+                   ( str.whiteRight ((x!1 String) (x!2 Int)) Int))
+                 ( (ite (<= x!2 0)
+                        ""
+                        (str.++ x!1 ((_ str.repeat 0) x!1 (- x!2 1))))
+                   (ite (= (str.at x!1 x!2) " ")
+                        ((_ str.whiteLeft 0) x!1 (+ x!2 1))
+                        x!2)
+                   (ite (= (str.at x!1 x!2) " ")
+                        ((_ str.whiteRight 0) x!1 (- x!2 1))
+                        x!2)))
+(assert (not (= ucon_str_platform
+        (str.++ (seq.unit #x2f)
+                (seq.unit #x6c)
+                (seq.unit #x6f)
+                (seq.unit #x67)
+                (seq.unit #x69)
+                (seq.unit #x6e)
+                (seq.unit #x3f)
+                (seq.unit #x72)
+                (seq.unit #x65)
+                (seq.unit #x64)
+                (seq.unit #x69)
+                (seq.unit #x72)
+                (seq.unit #x65)
+                (seq.unit #x63)
+                (seq.unit #x74)
+                (seq.unit #x5f)
+                (seq.unit #x61)
+                (seq.unit #x66)
+                (seq.unit #x74)
+                (seq.unit #x65)
+                (seq.unit #x72)
+                (seq.unit #x5f)
+                (seq.unit #x6c)
+                (seq.unit #x6f)
+                (seq.unit #x67)
+                (seq.unit #x69)
+                (seq.unit #x6e)
+                (seq.unit #x3d)
+                (seq.unit #x25)
+                (seq.unit #x32)
+                (seq.unit #x46)
+                (seq.unit #x66)
+                (seq.unit #x61)
+                (seq.unit #x76)
+                (seq.unit #x69)
+                (seq.unit #x63)
+                (seq.unit #x6f)
+                (seq.unit #x6e)
+                (seq.unit #x2e)
+                (seq.unit #x69)
+                (seq.unit #x63)
+                (seq.unit #x6f)))))
+(model-add str.isWhite ((x!1 String)) Bool (= x!1 " "))
+}
+[!] Wrote final output to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-60276-vyfW7svn7kQs
+[1000D[0K[|] [1 done /1 queued / 1 running / 1 errors / 20% coverage ] ***[1000D[0K[/] [1 done /1 queued / 1 running / 1 errors / 20% coverage ] ***[?] Built with VERY logging enabled
+[?] Built with FINE logging enabled
+[!] Built with BASE logging enabled
+[!] Intial Input {"con_onloadresult":false,"con_imgerror":false,"supp_0":false,"ucon_str_imgonload":"","ucon_str_img":"","ucon_str_platform":"/login?redirect_after_login=%2Ffavicon.ico","con_ran_var":false,"_bound":1}
+Transforming
+[!] ====== ENTERING SCRIPT /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js depth 0 ======
+[?] decl S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl con_onloadresult at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl con_imgerror at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl supp_0 at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl ucon_str_imgonload at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl ucon_str_img at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl ucon_str_platform at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl con_ran_var at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl img at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] Read require at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:10:1:17)
+[?] Execute function require at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:10:1:23)
+[?] require unmodeled
+[?] TODO: IsNative Uncached
+Transforming
+[?] ====== ENTERING SCRIPT /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js depth 1 ======
+[?] decl AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:1:1:74:32)
+[?] Write AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:8:21:8:23)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:13:1:13:14)
+[?] Put field {
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:13:1:13:28)
+[?] PutField [object Object] at existing
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:1:18:14)
+[?] Put field {
+    existing: {
+}
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:1:26:2)
+[?] PutField [object Object] at rename
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:28:1:28:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous
+}[assume] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:28:1:32:2)
+[?] PutField [object Object] at assume
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:1:37:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:1:43:2)
+[?] PutField [object Object] at symbol
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:45:1:45:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous
+}[pureSymbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:45:1:47:2)
+[?] PutField [object Object] at pureSymbol
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:1:52:14)
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:43)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:51)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[notAnError] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:62)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:64)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:64)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous
+}[NotAnErrorException] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:1:52:64)
+[?] PutField [object Object] at NotAnErrorException
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:57:1:57:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException
+}[fail] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:57:1:59:2)
+[?] PutField [object Object] at fail
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:65:1:65:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous
+}[assert] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:65:1:72:2)
+[?] PutField [object Object] at assert
+[?] Read module at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:74:1:74:7)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:74:18:74:31)
+[?] Put field {
+    8: internalRequire,
+    id: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js,
+    path: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src,
+    exports: {
+},
+    parent: {
+        8: internalRequire,
+        id: .,
+        path: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak,
+        exports: Max Depth,
+        parent: null,
+        filename: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js,
+        loaded: false,
+        children: Max Depth,
+        paths: Max Depth,
+        load: anonymous,
+        require: anonymous,
+        _compile: anonymous
+},
+    filename: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js,
+    loaded: false,
+    children: [],
+    paths: [/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/node_modules, /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/node_modules, /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/node_modules, /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/node_modules, /Users/tzuhan/+research/hyper_enforce/HyperEnforce/node_modules, /Users/tzuhan/+research/hyper_enforce/node_modules, /Users/tzuhan/+research/node_modules, /Users/tzuhan/node_modules, /Users/node_modules, /node_modules],
+    load: anonymous,
+    require: anonymous,
+    _compile: anonymous
+}[exports] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:74:1:74:31)
+[?] PutField [object Object] at exports
+[?] ====== EXITING SCRIPT /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js depth 1 ======
+[?] Exit function (require) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:10:1:23)
+[?] Write S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:10:1:23)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:26)
+[?] Get field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:33)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:59)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left true result boolean
+[?] Op !== left boolean right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+}[con_onloadresult] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+}[con_onloadresult] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at con_onloadresult
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"con_onloadresult","1":true} con_onloadresult true
+[?] Initializing fresh symbolic variable con_onloadresult using concrete value false
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:59)
+[?] Write con_onloadresult at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:59)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:29)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:51)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left true result boolean
+[?] Op !== left boolean right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1
+}[con_imgerror] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1
+}[con_imgerror] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at con_imgerror
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"con_imgerror","1":true} con_imgerror true
+[?] Initializing fresh symbolic variable con_imgerror using concrete value false
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:51)
+[?] Write con_imgerror at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:51)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:16)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:23)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:39)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left true result boolean
+[?] Op !== left boolean right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1
+}[supp_0] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1
+}[supp_0] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at supp_0
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"supp_0","1":true} supp_0 true
+[?] Initializing fresh symbolic variable supp_0 using concrete value false
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:39)
+[?] Write supp_0 at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:39)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:28)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:35)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:65)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left null result string
+[?] Op !== left string right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1
+}[ucon_str_imgonload] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1
+}[ucon_str_imgonload] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at ucon_str_imgonload
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"ucon_str_imgonload","1":"null"} ucon_str_imgonload null
+[?] Initializing fresh symbolic variable ucon_str_imgonload using concrete value 
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:65)
+[?] Write ucon_str_imgonload at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:65)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:29)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:53)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left null result string
+[?] Op !== left string right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1
+}[ucon_str_img] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1
+}[ucon_str_img] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at ucon_str_img
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"ucon_str_img","1":"null"} ucon_str_img null
+[?] Initializing fresh symbolic variable ucon_str_img using concrete value 
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:53)
+[?] Write ucon_str_img at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:53)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:27)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:34)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:63)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left null result string
+[?] Op !== left string right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1,
+    ucon_str_img: 1
+}[ucon_str_platform] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1,
+    ucon_str_img: 1
+}[ucon_str_platform] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at ucon_str_platform
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"ucon_str_platform","1":"null"} ucon_str_platform null
+[?] Initializing fresh symbolic variable ucon_str_platform using concrete value /login?redirect_after_login=%2Ffavicon.ico
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:63)
+[?] Write ucon_str_platform at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:63)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:21)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1,
+        ucon_str_platform: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:28)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:49)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left true result boolean
+[?] Op !== left boolean right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1,
+        ucon_str_platform: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1,
+        ucon_str_platform: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1,
+    ucon_str_img: 1,
+    ucon_str_platform: 1
+}[con_ran_var] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1,
+        ucon_str_platform: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1,
+    ucon_str_img: 1,
+    ucon_str_platform: 1
+}[con_ran_var] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at con_ran_var
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"con_ran_var","1":true} con_ran_var true
+[?] Initializing fresh symbolic variable con_ran_var using concrete value false
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:49)
+[?] Write con_ran_var at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:49)
+[?] Read ucon_str_platform at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:15:5:15:22)
+[?] Not concretizing === /login?redirect_after_login=%2Ffavicon.ico /login?redirect_after_login=%2Ffavicon.ico string string
+[?] Op === left {
+    concrete: /login?redirect_after_login=%2Ffavicon.ico,
+    symbolic: {
+        context: Max Depth,
+        ast: Max Depth,
+        _fields: Max Depth,
+        checks: Max Depth
+},
+    _arrayType: undefined
+} right /login?redirect_after_login=%2Ffavicon.ico result_c undefined at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:15:5:15:71)
+[?] Symbolic Binary: {"0":"===","1":"/login?redirect_after_login=%2Ffavicon.ico","2":{"context":{"ctx":{"id":1,"_ptr":true}},"ast":{"id":40,"_ptr":true},"_fields":[],"checks":[]},"3":"/login?redirect_after_login=%2Ffavicon.ico","4":{"context":{"ctx":{"id":1,"_ptr":true}},"ast":{"id":44,"_ptr":true},"_fields":[],"checks":[]}}
+[?] Evaluating conditional {
+    concrete: true,
+    symbolic: {
+        context: Max Depth,
+        ast: Max Depth,
+        _fields: Max Depth,
+        checks: Max Depth
+},
+    _arrayType: undefined
+}
+[?] Evaluating symbolic condition (= ucon_str_platform "/login?redirect_after_login=%2Ffavicon.ico") at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:15:5:15:71)
+[?] Concrete result was true, pushing (= ucon_str_platform "/login?redirect_after_login=%2Ffavicon.ico")
+[?] Read ucon_str_platform at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:16:5:16:22)
+[?] Not concretizing === /login?redirect_after_login=%2Ffavicon.ico /login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp string string
+[?] Op === left {
+    concrete: /login?redirect_after_login=%2Ffavicon.ico,
+    symbolic: {
+        context: Max Depth,
+        ast: Max Depth,
+        _fields: Max Depth,
+        checks: Max Depth
+},
+    _arrayType: undefined
+} right /login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp result_c undefined at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:16:5:16:100)
+[?] Symbolic Binary: {"0":"===","1":"/login?redirect_after_login=%2Ffavicon.ico","2":{"context":{"ctx":{"id":1,"_ptr":true}},"ast":{"id":40,"_ptr":true},"_fields":[],"checks":[]},"3":"/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp","4":{"context":{"ctx":{"id":1,"_ptr":true}},"ast":{"id":46,"_ptr":true},"_fields":[],"checks":[]}}
+[?] Evaluating conditional {
+    concrete: false,
+    symbolic: {
+        context: Max Depth,
+        ast: Max Depth,
+        _fields: Max Depth,
+        checks: Max Depth
+},
+    _arrayType: undefined
+}
+[?] Evaluating symbolic condition (= ucon_str_platform
+   "/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp") at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:16:5:16:100)
+[?] Concrete result was false, pushing not of (= ucon_str_platform
+   "/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp")
+[!] ====== EXITING SCRIPT /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js depth 0 ======
+[!] Uncaught exception ReferenceError: document is not defined Stack: ReferenceError: document is not defined
+    at Object.<anonymous> (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:27:83)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/src/js/commands/jalangi.js:115:12)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+    at startProgram (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/src/js/commands/jalangi.js:127:19)
+    at SymbolicExecution.onReady (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/bin/SymbolicExecution.js:636:7)
+    at Object.<anonymous> (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/src/js/commands/jalangi.js:131:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+[!] Finished play with PC (= ucon_str_platform "/login?redirect_after_login=%2Ffavicon.ico"),(not (= ucon_str_platform
+        "/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp"))
+[!] Wrote final coverage to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-60276-J3CRU0wfMgmW
+[?] Checking if (= ucon_str_platform
+   "/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp") is satisfiable
+[?] (= ucon_str_platform
+   "/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp") is not satisfiable
+[?] Solver {
+(declare-fun str.isWhite (String) Bool)
+(declare-fun ucon_str_platform () String)
+(define-funs-rec ( ( str.repeat ((x!1 String) (x!2 Int)) String)
+                   ( str.whiteLeft ((x!1 String) (x!2 Int)) Int)
+                   ( str.whiteRight ((x!1 String) (x!2 Int)) Int))
+                 ( (ite (<= x!2 0)
+                        ""
+                        (str.++ x!1 ((_ str.repeat 0) x!1 (- x!2 1))))
+                   (ite (= (str.at x!1 x!2) " ")
+                        ((_ str.whiteLeft 0) x!1 (+ x!2 1))
+                        x!2)
+                   (ite (= (str.at x!1 x!2) " ")
+                        ((_ str.whiteRight 0) x!1 (- x!2 1))
+                        x!2)))
+(assert (= ucon_str_platform
+   (str.++ (seq.unit #x2f)
+           (seq.unit #x6c)
+           (seq.unit #x6f)
+           (seq.unit #x67)
+           (seq.unit #x69)
+           (seq.unit #x6e)
+           (seq.unit #x3f)
+           (seq.unit #x72)
+           (seq.unit #x65)
+           (seq.unit #x64)
+           (seq.unit #x69)
+           (seq.unit #x72)
+           (seq.unit #x65)
+           (seq.unit #x63)
+           (seq.unit #x74)
+           (seq.unit #x5f)
+           (seq.unit #x61)
+           (seq.unit #x66)
+           (seq.unit #x74)
+           (seq.unit #x65)
+           (seq.unit #x72)
+           (seq.unit #x5f)
+           (seq.unit #x6c)
+           (seq.unit #x6f)
+           (seq.unit #x67)
+           (seq.unit #x69)
+           (seq.unit #x6e)
+           (seq.unit #x3d)
+           (seq.unit #x25)
+           (seq.unit #x32)
+           (seq.unit #x46)
+           (seq.unit #x66)
+           (seq.unit #x61)
+           (seq.unit #x76)
+           (seq.unit #x69)
+           (seq.unit #x63)
+           (seq.unit #x6f)
+           (seq.unit #x6e)
+           (seq.unit #x2e)
+           (seq.unit #x69)
+           (seq.unit #x63)
+           (seq.unit #x6f))))
+(model-add str.isWhite ((x!1 String)) Bool (= x!1 " "))
+}
+[!] Wrote final output to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-60276-RglCd7LnXlll
+[1000D[0K[-] [2 done /0 queued / 1 running / 2 errors / 20% coverage ] ***[1000D[0K[\] [2 done /0 queued / 1 running / 2 errors / 20% coverage ] ***[?] Built with VERY logging enabled
+[?] Built with FINE logging enabled
+[!] Built with BASE logging enabled
+[!] Intial Input {"con_onloadresult":false,"con_imgerror":false,"supp_0":false,"ucon_str_imgonload":"","ucon_str_img":"","ucon_str_platform":"/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp","con_ran_var":false,"_bound":2}
+Transforming
+[!] ====== ENTERING SCRIPT /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js depth 0 ======
+[?] decl S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl con_onloadresult at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl con_imgerror at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl supp_0 at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl ucon_str_imgonload at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl ucon_str_img at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl ucon_str_platform at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl con_ran_var at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] decl img at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:1:126:7)
+[?] Read require at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:10:1:17)
+[?] Execute function require at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:10:1:23)
+[?] require unmodeled
+[?] TODO: IsNative Uncached
+Transforming
+[?] ====== ENTERING SCRIPT /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js depth 1 ======
+[?] decl AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:1:1:74:32)
+[?] Write AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:8:21:8:23)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:13:1:13:14)
+[?] Put field {
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:13:1:13:28)
+[?] PutField [object Object] at existing
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:1:18:14)
+[?] Put field {
+    existing: {
+}
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:1:26:2)
+[?] PutField [object Object] at rename
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:28:1:28:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous
+}[assume] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:28:1:32:2)
+[?] PutField [object Object] at assume
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:1:37:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:1:43:2)
+[?] PutField [object Object] at symbol
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:45:1:45:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous
+}[pureSymbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:45:1:47:2)
+[?] PutField [object Object] at pureSymbol
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:1:52:14)
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:43)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:51)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[notAnError] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:62)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:64)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:37:52:64)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous
+}[NotAnErrorException] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:52:1:52:64)
+[?] PutField [object Object] at NotAnErrorException
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:57:1:57:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException
+}[fail] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:57:1:59:2)
+[?] PutField [object Object] at fail
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:65:1:65:14)
+[?] Put field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous
+}[assert] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:65:1:72:2)
+[?] PutField [object Object] at assert
+[?] Read module at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:74:1:74:7)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:74:18:74:31)
+[?] Put field {
+    8: internalRequire,
+    id: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js,
+    path: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src,
+    exports: {
+},
+    parent: {
+        8: internalRequire,
+        id: .,
+        path: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak,
+        exports: Max Depth,
+        parent: null,
+        filename: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js,
+        loaded: false,
+        children: Max Depth,
+        paths: Max Depth,
+        load: anonymous,
+        require: anonymous,
+        _compile: anonymous
+},
+    filename: /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js,
+    loaded: false,
+    children: [],
+    paths: [/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/node_modules, /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/node_modules, /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/node_modules, /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/node_modules, /Users/tzuhan/+research/hyper_enforce/HyperEnforce/node_modules, /Users/tzuhan/+research/hyper_enforce/node_modules, /Users/tzuhan/+research/node_modules, /Users/tzuhan/node_modules, /Users/node_modules, /node_modules],
+    load: anonymous,
+    require: anonymous,
+    _compile: anonymous
+}[exports] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:74:1:74:31)
+[?] PutField [object Object] at exports
+[?] ====== EXITING SCRIPT /Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js depth 1 ======
+[?] Exit function (require) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:10:1:23)
+[?] Write S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:1:10:1:23)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:26)
+[?] Get field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:33)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:59)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left true result boolean
+[?] Op !== left boolean right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+}[con_onloadresult] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+}[con_onloadresult] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at con_onloadresult
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"con_onloadresult","1":true} con_onloadresult true
+[?] Initializing fresh symbolic variable con_onloadresult using concrete value false
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:59)
+[?] Write con_onloadresult at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:4:24:4:59)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:29)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:51)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left true result boolean
+[?] Op !== left boolean right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1
+}[con_imgerror] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1
+}[con_imgerror] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at con_imgerror
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"con_imgerror","1":true} con_imgerror true
+[?] Initializing fresh symbolic variable con_imgerror using concrete value false
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:51)
+[?] Write con_imgerror at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:5:20:5:51)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:16)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:23)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:39)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left true result boolean
+[?] Op !== left boolean right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1
+}[supp_0] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1
+}[supp_0] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at supp_0
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"supp_0","1":true} supp_0 true
+[?] Initializing fresh symbolic variable supp_0 using concrete value false
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:39)
+[?] Write supp_0 at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:6:14:6:39)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:28)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:35)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:65)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left null result string
+[?] Op !== left string right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1
+}[ucon_str_imgonload] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1
+}[ucon_str_imgonload] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at ucon_str_imgonload
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"ucon_str_imgonload","1":"null"} ucon_str_imgonload null
+[?] Initializing fresh symbolic variable ucon_str_imgonload using concrete value 
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:65)
+[?] Write ucon_str_imgonload at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:7:26:7:65)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:29)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:53)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left null result string
+[?] Op !== left string right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1
+}[ucon_str_img] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1
+}[ucon_str_img] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at ucon_str_img
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"ucon_str_img","1":"null"} ucon_str_img null
+[?] Initializing fresh symbolic variable ucon_str_img using concrete value 
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:53)
+[?] Write ucon_str_img at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:8:20:8:53)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:27)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:34)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:63)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left null result string
+[?] Op !== left string right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1,
+    ucon_str_img: 1
+}[ucon_str_platform] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1,
+    ucon_str_img: 1
+}[ucon_str_platform] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at ucon_str_platform
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"ucon_str_platform","1":"null"} ucon_str_platform null
+[?] Initializing fresh symbolic variable ucon_str_platform using concrete value /login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:63)
+[?] Write ucon_str_platform at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:9:25:9:63)
+[?] Read S$ at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:21)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1,
+        ucon_str_platform: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[symbol] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:28)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:49)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] decl c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:16:38:17)
+[?] Unary typeof left true result boolean
+[?] Op !== left boolean right undefined result_c true at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:38:9:38:33)
+[?] Evaluating conditional true
+[?] Read Object at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:22)
+[?] Get field Object[_expose] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:30)
+[?] Get field {
+    makeSymbolic: anonymous,
+    notAnError: anonymous,
+    pureSymbol: anonymous
+}[makeSymbolic] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:43)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:57)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1,
+        ucon_str_platform: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[rename] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:64)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:65:39:69)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Entering anonymous near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl arguments at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] decl name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:23)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1,
+        ucon_str_platform: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:32)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:33:19:37)
+[?] Get field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1,
+    ucon_str_img: 1,
+    ucon_str_platform: 1
+}[con_ran_var] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:19:10:19:38)
+[?] Unary ! left undefined result true
+[?] Evaluating conditional true
+[?] Read AssertToolkit at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:22)
+[?] Get field {
+    existing: {
+        con_onloadresult: 1,
+        con_imgerror: 1,
+        supp_0: 1,
+        ucon_str_imgonload: 1,
+        ucon_str_img: 1,
+        ucon_str_platform: 1
+},
+    rename: anonymous,
+    assume: anonymous,
+    symbol: anonymous,
+    pureSymbol: anonymous,
+    NotAnErrorException: NotAnErrorException,
+    fail: anonymous,
+    assert: anonymous
+}[existing] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:31)
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:32:20:36)
+[?] Put field {
+    con_onloadresult: 1,
+    con_imgerror: 1,
+    supp_0: 1,
+    ucon_str_imgonload: 1,
+    ucon_str_img: 1,
+    ucon_str_platform: 1
+}[con_ran_var] at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:20:9:20:41)
+[?] PutField [object Object] at con_ran_var
+[?] Read name at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:21:16:21:20)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:18:24:26:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:44:39:70)
+[?] Read c at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:72:39:73)
+[?] Execute function anonymous at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?]  unmodeled
+[?] TODO: IsNative Uncached
+[?] Args {"0":"con_ran_var","1":true} con_ran_var true
+[?] Initializing fresh symbolic variable con_ran_var using concrete value false
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:39:16:39:74)
+[?] Exiting function (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/lib/S$/src/symbols.js:37:24:43:2)
+[?] Exit function (anonymous) near (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:49)
+[?] Write con_ran_var at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:10:19:10:49)
+[?] Read ucon_str_platform at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:15:5:15:22)
+[?] Not concretizing === /login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp /login?redirect_after_login=%2Ffavicon.ico string string
+[?] Op === left {
+    concrete: /login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp,
+    symbolic: {
+        context: Max Depth,
+        ast: Max Depth,
+        _fields: Max Depth,
+        checks: Max Depth
+},
+    _arrayType: undefined
+} right /login?redirect_after_login=%2Ffavicon.ico result_c undefined at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:15:5:15:71)
+[?] Symbolic Binary: {"0":"===","1":"/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp","2":{"context":{"ctx":{"id":1,"_ptr":true}},"ast":{"id":40,"_ptr":true},"_fields":[],"checks":[]},"3":"/login?redirect_after_login=%2Ffavicon.ico","4":{"context":{"ctx":{"id":1,"_ptr":true}},"ast":{"id":44,"_ptr":true},"_fields":[],"checks":[]}}
+[?] Evaluating conditional {
+    concrete: false,
+    symbolic: {
+        context: Max Depth,
+        ast: Max Depth,
+        _fields: Max Depth,
+        checks: Max Depth
+},
+    _arrayType: undefined
+}
+[?] Evaluating symbolic condition (= ucon_str_platform "/login?redirect_after_login=%2Ffavicon.ico") at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:15:5:15:71)
+[?] Concrete result was false, pushing not of (= ucon_str_platform "/login?redirect_after_login=%2Ffavicon.ico")
+[?] Read ucon_str_platform at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:16:5:16:22)
+[?] Not concretizing === /login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp /login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp string string
+[?] Op === left {
+    concrete: /login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp,
+    symbolic: {
+        context: Max Depth,
+        ast: Max Depth,
+        _fields: Max Depth,
+        checks: Max Depth
+},
+    _arrayType: undefined
+} right /login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp result_c undefined at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:16:5:16:100)
+[?] Symbolic Binary: {"0":"===","1":"/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp","2":{"context":{"ctx":{"id":1,"_ptr":true}},"ast":{"id":40,"_ptr":true},"_fields":[],"checks":[]},"3":"/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp","4":{"context":{"ctx":{"id":1,"_ptr":true}},"ast":{"id":47,"_ptr":true},"_fields":[],"checks":[]}}
+[?] Evaluating conditional {
+    concrete: true,
+    symbolic: {
+        context: Max Depth,
+        ast: Max Depth,
+        _fields: Max Depth,
+        checks: Max Depth
+},
+    _arrayType: undefined
+}
+[?] Evaluating symbolic condition (= ucon_str_platform
+   "/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp") at (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:16:5:16:100)
+[?] Concrete result was true, pushing (= ucon_str_platform
+   "/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp")
+[!] ====== EXITING SCRIPT /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js depth 0 ======
+[!] Uncaught exception ReferenceError: document is not defined Stack: ReferenceError: document is not defined
+    at Object.<anonymous> (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js:27:83)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/src/js/commands/jalangi.js:115:12)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+    at startProgram (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/src/js/commands/jalangi.js:127:19)
+    at SymbolicExecution.onReady (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/bin/SymbolicExecution.js:636:7)
+    at Object.<anonymous> (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/src/js/commands/jalangi.js:131:17)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+[!] Finished play with PC (not (= ucon_str_platform "/login?redirect_after_login=%2Ffavicon.ico")),(= ucon_str_platform
+   "/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp")
+[!] Wrote final coverage to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-60276-dijgYSnQCpAL
+[!] Wrote final output to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-60276-eGl88W307Q5L
+[1000D[0K[|] [3 done /0 queued / 0 running / 3 errors / 20% coverage ] ***
+[+] {"_bound":0,"con_onloadresult":true,"con_imgerror":true,"supp_0":true,"ucon_str_imgonload":"null","ucon_str_img":"null","ucon_str_platform":"null","con_ran_var":true} took 2.873s
+[!] ReferenceError: document is not defined
+[!] expoSE replay '/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js' '{"_bound":0}'
+[+] {"con_onloadresult":false,"con_imgerror":false,"supp_0":false,"ucon_str_imgonload":"","ucon_str_img":"","ucon_str_platform":"/login?redirect_after_login=%2Ffavicon.ico","con_ran_var":false,"_bound":1} took 2.651s
+[!] ReferenceError: document is not defined
+[!] expoSE replay '/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js' '{"con_onloadresult":false,"con_imgerror":false,"supp_0":false,"ucon_str_imgonload":"","ucon_str_img":"","ucon_str_platform":"/login?redirect_after_login=%2Ffavicon.ico","con_ran_var":false,"_bound":1}'
+[+] {"con_onloadresult":false,"con_imgerror":false,"supp_0":false,"ucon_str_imgonload":"","ucon_str_img":"","ucon_str_platform":"/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp","con_ran_var":false,"_bound":2} took 2.629s
+[!] ReferenceError: document is not defined
+[!] expoSE replay '/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js' '{"con_onloadresult":false,"con_imgerror":false,"supp_0":false,"ucon_str_imgonload":"","ucon_str_img":"","ucon_str_platform":"/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffavicon.ico%3F_rdr%3Dp","con_ran_var":false,"_bound":2}'
+[!] Stats
+[+] General Function Call: 69
+[+] Symbolic Values: 21
+[+] Symbolic Primitives: 21
+[+] Wrapped Constants: 6
+[+] Symbolic Binary: 6
+[+] Max Queries (Any): 1
+[+] Max Queries (Succesful): 1
+[+] Failed Queries: 1
+[!] Done
+[+] /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/socleak/socleak_extended.js. Coverage (Term): 50% Coverage (Decisions): 40% Coverage (LOC): 42% Lines Of Code: 54 -*
+[+] Total Lines Of Code 54
+[+] Total Coverage: 0.4166666666666667%
+[+] EXPOSE_PRINT_COVERAGE=1 for line by line breakdown
+[+] ExpoSE Finished. 3 paths, 3 errors

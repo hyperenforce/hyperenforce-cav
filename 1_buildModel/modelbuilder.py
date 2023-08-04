@@ -314,6 +314,8 @@ def get_types(props):
         elif ('num_' in name):
             bound=99
             GLOBAL_TYPES[name]=[str(x) for x in range(bound)] + [str(x) + '.0' for x in range(bound)]
+        elif (name=='con_str_bufferlist'):
+            GLOBAL_TYPES[name]=["'", "'abcd'", "'no'"]
         elif (name=='con_l_obs'):
             bound=40
             GLOBAL_TYPES[name]=[str(x) for x in range(bound)] + [str(x) + '.0' for x in range(bound)]

@@ -1,0 +1,16 @@
+=== ExpoSE Statistical Report === 
+General Function Call: 92
+Symbolic Values:     28
+Symbolic Primitives: 28
+Total Lines Of Code 57
+ExpoSE total time:  11.964 s
+
+=== HyperEnforce Statistical Report === 
+JS File name:                         benchmarks/socleak2/socleak2_extended.js
+Number of concrete traces:            4
+Number of states:                     23
+Number of observable states:          10
+List of observable states:            [4, 34, 35, 36, 40, 43, 48, 49, 55, 56]
+Time took for extracting ExpoSE info: 0.005022 
+Time took for building Kripke struct: 0.001056 
+Total time:                           0.006241 

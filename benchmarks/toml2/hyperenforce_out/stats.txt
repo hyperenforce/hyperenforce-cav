@@ -1,0 +1,16 @@
+=== ExpoSE Statistical Report === 
+General Function Call: 11
+Symbolic Values:     3
+Symbolic Primitives: 3
+Total Lines Of Code 4088
+ExpoSE total time:  3.999 s
+
+=== HyperEnforce Statistical Report === 
+JS File name:                         benchmarks/toml2/nconf_toml2_extended.js
+Number of concrete traces:            1
+Number of states:                     13
+Number of observable states:          11
+List of observable states:            [6, 9, 20, 33, 34, 44, 46, 58, 78, 79, 88]
+Time took for extracting ExpoSE info: 0.001181 
+Time took for building Kripke struct: 0.000561 
+Total time:                           0.001976 

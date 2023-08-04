@@ -8,11 +8,11 @@
 ✖ 2 problems (0 errors, 2 warnings)
 
 Building Libs
-Successfully compiled 1 file with Babel (339ms).
+Successfully compiled 1 file with Babel (335ms).
 Building Distributor
-Successfully compiled 15 files with Babel (823ms).
+Successfully compiled 15 files with Babel (826ms).
 Building Analyser
-Successfully compiled 24 files with Babel (1424ms).
+Successfully compiled 24 files with Babel (1442ms).
 Building into
 Bundling Analyser/bin/Analyser.js into bin/bundle.js
 [+] ExpoSE /Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/buffer_vuln/buffer_extended.js concurrent: 1 timeout: 7200000 per-test: 2400000
@@ -24,20 +24,23 @@ Transforming
 Failed to instrument var S$ = require('S$');
 
 /* SYMBOLIC VARS */
-var no_leaked = S$.symbol('no_leaked', true)
-var bufferlist = S$.symbol('bufferlist', '')
+var ucon_no_leaked = S$.symbol('no_leaked', true)
+var con_str_bufferlist = S$.symbol('con_str_bufferlist', '')
+var supp_0 = S$.symbol('supp_0', true)
 
 /* MAIN JS PROGRAM */
 // var utils = require("iflow");
 // var policy = require("../Policy.js");
 // function f() {}
-​
+// ​var utils = "iflow";
+// var policy = "../Policy.js";
 // utils.addSink(f);
-​
-const BufferList = require('bl');
-​
+​ucon_no_leaked = false
+// const BufferList = require('bl');
 /* Coverage improving instructions */
 // var bl = new BufferList();
+con_str_bufferlist = ''
+con_str_bufferlist = 'abcd'
 // bl.append(utils.source(new Buffer('abcd'), utils.HIGH_LEVEL, "module-interface"))
 // bl.append(new Buffer('xxxx'));
 // console.log(bl._offset());
@@ -70,14 +73,14 @@ const BufferList = require('bl');
 
 /* END OF PROGRAM */
 
-[!] Uncaught exception SyntaxError: unknown: Unexpected character '​' (11:0) Stack: SyntaxError: unknown: Unexpected character '​' (11:0)
-   9 | // var policy = require("../Policy.js");
-  10 | // function f() {}
-> 11 | ​
+[!] Uncaught exception SyntaxError: unknown: Unexpected character '​' (15:0) Stack: SyntaxError: unknown: Unexpected character '​' (15:0)
+  13 | // var policy = "../Policy.js";
+  14 | // utils.addSink(f);
+> 15 | ​ucon_no_leaked = false
      | ^
-  12 | // utils.addSink(f);
-  13 | ​
-  14 | const BufferList = require('bl');
+  16 | // const BufferList = require('bl');
+  17 | /* Coverage improving instructions */
+  18 | // var bl = new BufferList();
     at Parser.pp$5.raise (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:4454:13)
     at Parser.getTokenFromCode (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:1147:10)
     at Parser.readToken (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:776:19)
@@ -89,11 +92,11 @@ const BufferList = require('bl');
     at Parser.pp$3.parseExprSubscripts (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3504:15)
     at Parser.pp$3.parseMaybeUnary (/Users/tzuhan/+research/hyper_enforce/HyperEnforce/1_buildModel/Analyser/node_modules/jalangi2/node_modules/babylon/lib/index.js:3474:19)
 [!] Finished play with PC 
-[!] Wrote final coverage to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-18200-dd1w9jTl2iQS
-[!] Wrote final output to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-18200-jXo5e0tKADCd
+[!] Wrote final coverage to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-52755-lmvb2QCOXxcg
+[!] Wrote final output to /var/folders/z1/vfgxsshx1fz7lks_0jxxbrwr0000gn/T/tmp-52755-No26BrHknMw0
 [1000D[0K[|] [1 done /0 queued / 0 running / 1 errors / 0% coverage ] ***
-[+] {"_bound":0} took 2.603s
-[!] SyntaxError: unknown: Unexpected character '​' (11:0)
+[+] {"_bound":0} took 2.587s
+[!] SyntaxError: unknown: Unexpected character '​' (15:0)
 [!] expoSE replay '/Users/tzuhan/+research/hyper_enforce/HyperEnforce/benchmarks/buffer_vuln/buffer_extended.js' '{"_bound":0}'
 [!] Stats
 [!] Done

@@ -87,10 +87,21 @@
 # ENTENDEDPLANT=nconf_toml_extended.js
 # HYPERAUTOMATON=hyperauto_toml.txt
 
-PROJECTNAME=fingerprint
-BENCHMARKLOCATION=benchmarks/fingerprint
-ENTENDEDPLANT=fingerprint_extended.js
-HYPERAUTOMATON=hyperauto_fingerprint.txt
+PROJECTNAME=toml2
+BENCHMARKLOCATION=benchmarks/toml2
+ENTENDEDPLANT=nconf_toml2_extended.js
+HYPERAUTOMATON=hyperauto_toml.txt
+
+# PROJECTNAME=socleak
+# BENCHMARKLOCATION=benchmarks/socleak
+# ENTENDEDPLANT=socleak_extended.js
+# HYPERAUTOMATON=hyperauto_socleak.txt
+
+# PROJECTNAME=socleak2
+# BENCHMARKLOCATION=benchmarks/socleak2
+# ENTENDEDPLANT=socleak2_extended.js
+# HYPERAUTOMATON=hyperauto_socleak2.txt
+
 
 # PROJECTNAME=buffer_vuln
 # BENCHMARKLOCATION=benchmarks/buffer_vuln
