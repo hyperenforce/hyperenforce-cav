@@ -12,7 +12,7 @@
 # HYPERAUTOMATON=hyperauto_test.txt
 
 
-### CSF'23 Benchmarks: please uncomment to run a specific ase
+### Benchmarks: please uncomment to run a specific ase
 
 # PROJECTNAME=string
 # BENCHMARKLOCATION=benchmarks/string
@@ -87,10 +87,10 @@
 # ENTENDEDPLANT=nconf_toml_extended.js
 # HYPERAUTOMATON=hyperauto_toml.txt
 
-PROJECTNAME=toml2
-BENCHMARKLOCATION=benchmarks/toml2
-ENTENDEDPLANT=nconf_toml2_extended.js
-HYPERAUTOMATON=hyperauto_toml.txt
+# PROJECTNAME=toml2
+# BENCHMARKLOCATION=benchmarks/toml2
+# ENTENDEDPLANT=nconf_toml2_extended.js
+# HYPERAUTOMATON=hyperauto_toml.txt
 
 # PROJECTNAME=socleak
 # BENCHMARKLOCATION=benchmarks/socleak

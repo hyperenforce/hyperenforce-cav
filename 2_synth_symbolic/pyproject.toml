@@ -2,7 +2,6 @@
 name = "hyper_enforce"
 version = "0.0.2"
 description = "Tool for synthesizing discrete controllers satsifying hyperproperties."
-authors = ["Andrew Wintenberg <awintenb@umich.edu>, Ana Costa <ana.oli.costa@gmail.com>, Tzu-Han Hsu <tzuhan@msu.edu>"]
 packages = [
     { include = "hyper_synth" },
 ]

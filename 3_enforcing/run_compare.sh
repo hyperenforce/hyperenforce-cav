@@ -10,12 +10,12 @@
 
 # PROJECTNAME="socleak"
 # PROJECTNAME="socleak2"
-PROJECTNAME="toml"
+# PROJECTNAME="toml"
 # PROJECTNAME="deniability"
 
-ENFORCER="hyperenforce_cases/${PROJECTNAME}/${PROJECTNAME}_enforcer.js"
+# ENFORCER="hyperenforce_cases/${PROJECTNAME}/${PROJECTNAME}_enforcer.js"
 # ENFORCEDJS="hyperenforce_cases/${PROJECTNAME}/${PROJECTNAME}_enforced.js"
-COMPAREJS="hyperenforce_cases/${PROJECTNAME}/${PROJECTNAME}_enforced_compare.js"
+# COMPAREJS="hyperenforce_cases/${PROJECTNAME}/${PROJECTNAME}_enforced_compare.js"
 # ORIGINALJS="hyperenforce_cases/${PROJECTNAME}/${PROJECTNAME}.js"
 # ENFORCEDOUT="hyperenforce_cases/${PROJECTNAME}/${PROJECTNAME}_out.txt"
 

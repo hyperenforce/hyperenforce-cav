@@ -51,13 +51,4 @@ By completing steps 1 to 3,  you are ready to use HyperEnforce!
 
 ### Run our tests
 
-<!-- we provided several tests... -->
-
 The obfuscation example can be run with the script `run_obfuscation_ex.sh`
-
-### Usage
-
-
-### Debug
-
-<!-- to run HyperEnforce on your JS script and hyperautomaton... -->
